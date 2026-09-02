@@ -1,0 +1,23 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+use AjayKushwaha25\CustomMakeCommand\Traits\UsesUUID;
+
+class Pincode extends Model
+{
+    use HasFactory,UsesUUID;
+
+    protected $fillable = [
+        'id',
+        'state',
+        'region',
+        'division',
+        'area',
+        'code',
+        'lat',
+        'long',
+    ];
+}

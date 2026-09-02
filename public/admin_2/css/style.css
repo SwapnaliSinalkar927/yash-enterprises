@@ -1,0 +1,17 @@
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 33px !important;
+    }
+.select2-container--default .select2-selection--single{
+    height: 35px;
+    border: 1px solid #ced4da !important;
+} 
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 34px !important;
+}
+.invalid-feedback{
+    display: block !important;
+}
+.add-ds-link,.add-outlet-link,.add-ds-link,.add-state-link{
+    color:white !important;
+}

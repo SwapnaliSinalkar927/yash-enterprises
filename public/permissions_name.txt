@@ -1,0 +1,73 @@
+  Permission names:
+
+        Distributor Sale Access
+            Distributor Sale Edit
+            Distributor Sale Show
+            Distributor Sale Create
+
+        Outlet Access
+            Outlet Edit
+            Outlet Show
+            Outlet Create
+
+        Order Item Access
+            Order Item Show
+
+        Brand Access
+            Brand Show
+            Brand Edit
+            Brand Create
+
+        States Access
+            State Show
+            State Edit
+            State Create
+
+        City Access
+            City Show
+            City Edit
+            City Create
+
+        Pincodes Access
+            Pincode Show
+            Pincode Edit
+            Pincode Create
+
+        Ds Login History Access
+
+        Import Access
+
+  
+  
+  Slug_names:  
+        
+        distributor_sale_access
+            distributor_sale_edit
+            distributor_sale_show
+            distributor_sale_create
+
+        outlet_access
+            outlet_edit
+            outlet_show
+            outlet_create
+
+        order_item_access
+            order_item_show
+
+        brand_access
+            brand_show
+
+        state_access
+            state_show
+
+        city_access
+            city_show
+
+        pincode_access
+            pincode_show
+
+        ds_login_history_access
+
+        import_access
+
+
