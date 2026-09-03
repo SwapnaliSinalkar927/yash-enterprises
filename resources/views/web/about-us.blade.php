@@ -26,119 +26,232 @@
         <!--End Page Header-->
 
         <!--Start About One-->
-        <section class="about-one">
-            <div class="shape1"><img src="{{ asset('images/shapes/about-v1-shape1.png') }}" alt=""></div>
+        <section class="about-two about-two--about">
+            <div class="shape2 rotate-me"><img
+                src="{{ asset('images/shapes/about-v2-shape2.png') }}" alt=""></div>
             <div class="container">
                 <div class="row">
-                    <!--Start About One Img-->
-                    <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <div class="about-one__img">
-                            <div class="about-one__video">
-                                <a href="https://www.youtube.com/watch?v=06dV9txztKY" class="video-popup">
-                                    <div class="about-one__video-icon">
-                                        <span class="icon-play-button-arrowhead"></span>
-                                        <i class="ripple"></i>
-                                    </div>
-                                </a>
+                <!--Start About Two Img-->
+                <div class="col-xl-6 wow fadeInRight animated" data-wow-delay="200ms"
+                    data-wow-duration="1500ms"
+                    style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms; animation-name: fadeInRight;">
+                    <div class="about-two__img">
+                    <div class="shape1 float-bob-y"><img
+                        src="{{ asset('images/shapes/about-v2-shape1.png') }}" alt="">
+                    </div>
+                    <div class="about-two__img1">
+                        <img src="{{ asset('images/about/about-v2-img1.jpg') }}" alt="">
+                    </div>
+
+                    <div class="about-two__img2">
+                        <img src="{{ asset('images/about/about-v2-img2.jpg') }}" alt="">
+                        <div class="about-one__video">
+                        <a href="https://www.youtube.com/watch?v=06dV9txztKY"
+                            class="video-popup">
+                            <div class="about-one__video-icon">
+                            <span class="icon-play-button-arrowhead"></span>
+                            <i class="ripple"></i>
                             </div>
-
-                            <div class="row">
-                                <div class="col-xl-6 col-lg-6 col-md-6">
-                                    <div class="about-one__img-left">
-                                        <div class="single-img">
-                                            <img src="{{ asset('images/about/about-v1-img1.jpg') }}" alt="#">
-                                        </div>
-                                        <div class="single-img">
-                                            <img src="{{ asset('images/about/about-v1-img2.jpg') }}" alt="#">
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-xl-6 col-lg-6 col-md-6">
-                                    <div class="about-one__img-right">
-                                        <div class="about-one__experience">
-                                            <div class="count-box">
-                                                <h2 class="count-text" data-stop="30" data-speed="1500">00</h2>
-                                                <span>+</span>
-                                            </div>
-                                            <p>Years Of Experience</p>
-                                        </div>
-
-                                        <div class="about-one__img-right-img">
-                                            <img src="{{ asset('images/about/about-v1-img3.jpg') }}" alt="#">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        </a>
                         </div>
                     </div>
-                    <!--End About One Img-->
-
-                    <!--Start About One Content-->
-                    <div class="col-xl-6 wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <div class="about-one__content">
-                            <div class="sec-title sec-title-animation animation-style2">
-                                <div class="sec-title__tagline">
-                                    <div class="icon-box">
-                                        <span class="icon-household"></span>
-                                    </div>
-
-                                    <div class="text title-animation">
-                                        <h4>About Cleaning Agency</h4>
-                                    </div>
-                                </div>
-                                <h2 class="sec-title__title title-animation">We Are A Highly Experienced <br> Cleaning
-                                    Service Company
-                                </h2>
+                    <div class="about-two__img-content">
+                        <div class="progress-box">
+                        <div class="graph-outer">
+                            <div style="display:inline;width:75px;height:75px;"><canvas
+                                width="93" height="93"
+                                style="width: 75px; height: 75px;"></canvas><input
+                                type="text" class="dial" data-fgcolor="#004a94"
+                                data-bgcolor="#08395d" data-width="75" data-height="75"
+                                data-linecap="normal" value="95" readonly="readonly"
+                                style="display: none; width: 0px; visibility: hidden;">
                             </div>
-
-                            <div class="about-one__content-text">
-                                <p>It is a long established fact that a reader will be distracted by the readable
-                                    content of a page when looking at its layout. The point of using Lorem Ipsum is that
-                                    it has a more-or-less normal distribution of letters, as opposed to using 'Content
-                                    here,</p>
-                            </div>
-
-                            <div class="about-one__content-list">
-                                <ul>
-                                    <li>
-                                        <div class="icon-box">
-                                            <span class="icon-window-cleaner"></span>
-                                        </div>
-
-                                        <div class="content-box">
-                                            <h3>Commercial Cleaning</h3>
-                                            <p>There are many variations of passages of Lorem Ipsum available, but the
-                                                majority have suffered alteration in some form,</p>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <div class="icon-box">
-                                            <span class="icon-cleaning"></span>
-                                        </div>
-
-                                        <div class="content-box">
-                                            <h3>Residential Cleaning </h3>
-                                            <p>There are many variations of passages of Lorem Ipsum available, but the
-                                                majority have suffered alteration in some form,</p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div class="about-one__content-btn">
-                                <a class="thm-btn" href="contact-1.html">Read More
-                                    <i class="icon-next"></i>
-                                    <span class="hover-btn hover-bx"></span>
-                                    <span class="hover-btn hover-bx2"></span>
-                                    <span class="hover-btn hover-bx3"></span>
-                                    <span class="hover-btn hover-bx4"></span>
-                                </a>
+                            <div class="inner-text count-box counted"><span
+                                class="count-text" data-stop="95"
+                                data-speed="2000">95</span><span
+                                class="count-Parsent">%</span>
                             </div>
                         </div>
+                        </div>
+                        <div class="text-box">
+                        <h3>Customars <br>
+                            Satisfy</h3>
+                        </div>
                     </div>
-                    <!--End About One Content-->
+                    </div>
+                </div>
+                <!--End About Two Img-->
+
+                <!--Start About Two Content-->
+                <div class="col-xl-6 wow fadeInLeft animated" data-wow-delay="200ms"
+                    data-wow-duration="1500ms"
+                    style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms; animation-name: fadeInLeft;">
+                    <div class="about-two__content">
+                    <div class="sec-title sec-title-animation animation-style2">
+                        <h5 class="sec-title__title title-animation"
+                        style="perspective: 400px;">
+                       About Us
+                        </h5>
+                    </div>
+
+                    <div class="about-two__content-text">
+                        <p>It is a long established fact that a reader will be distracted by
+                        the readable
+                        content of a page when looking at its layout. The point of using
+                        Lorem Ipsum</p>
+                    </div>
+                    <div class="about-two__tab tab-box">
+                        <ul class="tabs-button-box clearfix">
+                        <li data-tab="#mission" class="tab-btn-item active-btn">
+                            <h3>Why Choose Us</h3>
+                        </li>
+                        <li data-tab="#vision" class="tab-btn-item">
+                            <h3> Our Expertise</h3>
+                        </li>
+                        <li data-tab="#history" class="tab-btn-item">
+                            <h3>Our Commitment</h3>
+                        </li>
+                        </ul>
+                        <div class="tabs-content tabs-content-box">
+                        <!--Start Single Tab Content-->
+                        <div class="tab tab-active" id="mission">
+                            <div class="about-two__single-tab">
+                            <div class="about-two__single-tab-inner">
+                                <div class="about-two__single-tab-text">
+                                <p>We believe a clean space is more than just a spotless appearance—it creates a healthier, safer, and more comfortable environment. Our professional team delivers dependable cleaning services with attention to detail, flexible solutions, and a strong focus on customer satisfaction.
+                                </p>
+                                </div>
+
+                                <div class="about-two__single-tab-bottom">
+                                <div class="row">
+                                    <div class="col-xl-6 col-lg-6 col-md-6">
+                                    <ul class="about-two__single-tab-bottom-list">
+                                        <li>
+                                        <p><span class="icon-checkmark"></span>Reliable & Professional Team</p>
+                                        </li>
+
+                                        <li>
+                                        <p><span class="icon-checkmark"></span>Quality Cleaning Standards</p>
+                                        </li>
+                                    </ul>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6 col-md-6">
+                                    <ul class="about-two__single-tab-bottom-list">
+                                        <li>
+                                        <p><span class="icon-checkmark"></span>
+                                           Customer-Focused Service</p>
+                                        </li>
+
+                                        <li>
+                                        <p><span class="icon-checkmark"></span> Flexible Cleaning Solutions</p>
+                                        </li>
+                                    </ul>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <!--End Single Tab Content-->
+
+                        <!--Start Single Tab Content-->
+                        <div class="tab" id="vision">
+                            <div class="about-two__single-tab">
+                            <div class="about-two__single-tab-inner">
+                                <div class="about-two__single-tab-text">
+                                <p>With extensive experience in the cleaning industry, we understand the unique requirements of homes, apartments, offices, and common areas. Our trained team uses effective cleaning methods and pays attention to every detail to deliver consistently high-quality results.
+                                </p>
+                                </div>
+
+                                <div class="about-two__single-tab-bottom">
+                                <div class="row">
+                                    <div class="col-xl-6 col-lg-6 col-md-6">
+                                    <ul class="about-two__single-tab-bottom-list">
+                                        <li>
+                                        <p><span class="icon-checkmark"></span>Residential & Apartment Cleaning</p>
+                                        </li>
+
+                                        <li>
+                                        <p><span class="icon-checkmark"></span>Office Cleaning Services</p>
+                                        </li>
+                                    </ul>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6 col-md-6">
+                                    <ul class="about-two__single-tab-bottom-list">
+                                        <li>
+                                        <p><span class="icon-checkmark"></span>
+                                            Common Area Maintenance</p>
+                                        </li>
+
+                                        <li>
+                                        <p><span class="icon-checkmark"></span>Deep & Regular Cleaning</p>
+                                        </li>
+                                    </ul>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <!--End Single Tab Content-->
+
+                        <!--Start Single Tab Content-->
+                        <div class="tab" id="history">
+                            <div class="about-two__single-tab">
+                            <div class="about-two__single-tab-inner">
+                                <div class="about-two__single-tab-text">
+                                <p>We are committed to maintaining clean, hygienic, and welcoming spaces for every customer. From regular maintenance to detailed cleaning, we focus on dependable service, professional standards, and results that you can see and trust.
+                                </p>
+                                </div>
+
+                                <div class="about-two__single-tab-bottom">
+                                <div class="row">
+                                    <div class="col-xl-6 col-lg-6 col-md-6">
+                                    <ul class="about-two__single-tab-bottom-list">
+                                        <li>
+                                        <p><span class="icon-checkmark"></span>Consistent Service Quality</p>
+                                        </li>
+
+                                        <li>
+                                        <p><span class="icon-checkmark"></span>Hygiene & Cleanliness</p>
+                                        </li>
+                                    </ul>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6 col-md-6">
+                                    <ul class="about-two__single-tab-bottom-list">
+                                        <li>
+                                        <p><span class="icon-checkmark"></span>
+                                            Trained Cleaning Professionals</p>
+                                        </li>
+
+                                        <li>
+                                        <p><span class="icon-checkmark"></span>Complete Customer Satisfaction</p>
+                                        </li>
+                                    </ul>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <!--End Single Tab Content-->
+                        </div>
+                    </div>
+
+                    <div class="about-two__content-bottom">
+                        <div class="about-two__content-founder">
+                        <div class="img-box">
+                            <img src="{{ asset('images/about/about-v2-img3.jpg') }}" alt="">
+                        </div>
+                        <div class="text-box">
+                            <h3>Yash Fulsundar</h3>
+                            <p>Director</p>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <!--End About Two Content-->
                 </div>
             </div>
         </section>
@@ -170,246 +283,145 @@
                 </div>
 
                 <div class="services-one__inner">
-                    <div class="services-one__carousel owl-carousel owl-theme thm-dot-style1">
-                        <!--Start Services One Single-->
+                   <div class="services-one__carousel owl-carousel owl-theme thm-dot-style1">
+
+                        <!-- Weekly Apartment Service -->
                         <div class="services-one__single">
                             <div class="services-one__single-inner text-center">
                                 <div class="services-one__single-icon">
-                                    <span class="icon-house-2"></span>
+                                    <span class="icon-bed"></span>
                                 </div>
-                                <h2><a href="house-cleaning.html">House Cleaning</a></h2>
-                                <p>It is a long established fact that a reader will be distracted by the readable
-                                    content of a page when looking at its layout.</p>
 
-                                <div class="services-one__single-btn">
-                                    <a href="house-cleaning.html">Read more <span class="icon-plus"></span></a>
+                                <h2>
+                                    <a href="house-cleaning.php">Weekly Apartment Service</a>
+                                </h2>
+
+                                <p>
+                                    Full dusting, mopping, and bathroom scrub in every flat.
+                                    Same crew each week.
+                                </p>
+
                                 </div>
-                            </div>
 
                             <div class="shadow-one"></div>
                             <div class="shadow-two"></div>
                         </div>
-                        <!--End Services One Single-->
 
-                        <!--Start Services One Single-->
-                        <div class="services-one__single">
-                            <div class="services-one__single-inner text-center">
-                                <div class="services-one__single-icon">
-                                    <span class="icon-house"></span>
-                                </div>
-                                <h2><a href="house-cleaning.html">Office Cleaning</a></h2>
-                                <p>It is a long established fact that a reader will be distracted by the readable
-                                    content of a page when looking at its layout.</p>
 
-                                <div class="services-one__single-btn">
-                                    <a href="house-cleaning.html">Read more <span class="icon-plus"></span></a>
-                                </div>
-                            </div>
-
-                            <div class="shadow-one"></div>
-                            <div class="shadow-two"></div>
-                        </div>
-                        <!--End Services One Single-->
-
-                        <!--Start Services One Single-->
+                        <!-- Common Area Maintenance -->
                         <div class="services-one__single">
                             <div class="services-one__single-inner text-center">
                                 <div class="services-one__single-icon">
                                     <span class="icon-window-cleaning"></span>
                                 </div>
-                                <h2><a href="house-cleaning.html">Window Cleaning</a></h2>
-                                <p>It is a long established fact that a reader will be distracted by the readable
-                                    content of a page when looking at its layout.</p>
 
-                                <div class="services-one__single-btn">
-                                    <a href="house-cleaning.html">Read more <span class="icon-plus"></span></a>
+                                <h2>
+                                    <a href="house-cleaning.php">Common Area Maintenance</a>
+                                </h2>
+
+                                <p>
+                                    Lobbies, staircases, and corridors cleaned on a set
+                                    schedule. No missed spots.
+                                </p>
+
                                 </div>
-                            </div>
 
                             <div class="shadow-one"></div>
                             <div class="shadow-two"></div>
                         </div>
-                        <!--End Services One Single-->
 
-                        <!--Start Services One Single-->
-                        <div class="services-one__single">
-                            <div class="services-one__single-inner text-center">
-                                <div class="services-one__single-icon">
-                                    <span class="icon-cleaning-service"></span>
-                                </div>
-                                <h2><a href="house-cleaning.html">Kitchen Cleaning</a></h2>
-                                <p>It is a long established fact that a reader will be distracted by the readable
-                                    content of a page when looking at its layout.</p>
 
-                                <div class="services-one__single-btn">
-                                    <a href="house-cleaning.html">Read more <span class="icon-plus"></span></a>
-                                </div>
-                            </div>
-
-                            <div class="shadow-one"></div>
-                            <div class="shadow-two"></div>
-                        </div>
-                        <!--End Services One Single-->
-
-                        <!--Start Services One Single-->
-                        <div class="services-one__single">
-                            <div class="services-one__single-inner text-center">
-                                <div class="services-one__single-icon">
-                                    <span class="icon-toilet"></span>
-                                </div>
-                                <h2><a href="house-cleaning.html">Toilet Cleaning</a></h2>
-                                <p>It is a long established fact that a reader will be distracted by the readable
-                                    content of a page when looking at its layout.</p>
-
-                                <div class="services-one__single-btn">
-                                    <a href="house-cleaning.html">Read more <span class="icon-plus"></span></a>
-                                </div>
-                            </div>
-
-                            <div class="shadow-one"></div>
-                            <div class="shadow-two"></div>
-                        </div>
-                        <!--End Services One Single-->
-
-                        <!--Start Services One Single-->
-                        <div class="services-one__single">
-                            <div class="services-one__single-inner text-center">
-                                <div class="services-one__single-icon">
-                                    <span class="icon-carpet-1"></span>
-                                </div>
-                                <h2><a href="house-cleaning.html">Carpet Cleaning</a></h2>
-                                <p>It is a long established fact that a reader will be distracted by the readable
-                                    content of a page when looking at its layout.</p>
-
-                                <div class="services-one__single-btn">
-                                    <a href="house-cleaning.html">Read more <span class="icon-plus"></span></a>
-                                </div>
-                            </div>
-
-                            <div class="shadow-one"></div>
-                            <div class="shadow-two"></div>
-                        </div>
-                        <!--End Services One Single-->
-
-                        <!--Start Services One Single-->
-                        <div class="services-one__single">
-                            <div class="services-one__single-inner text-center">
-                                <div class="services-one__single-icon">
-                                    <span class="icon-house-2"></span>
-                                </div>
-                                <h2><a href="house-cleaning.html">House Cleaning</a></h2>
-                                <p>It is a long established fact that a reader will be distracted by the readable
-                                    content of a page when looking at its layout.</p>
-
-                                <div class="services-one__single-btn">
-                                    <a href="house-cleaning.html">Read more <span class="icon-plus"></span></a>
-                                </div>
-                            </div>
-
-                            <div class="shadow-one"></div>
-                            <div class="shadow-two"></div>
-                        </div>
-                        <!--End Services One Single-->
-
-                        <!--Start Services One Single-->
+                        <!-- Deep Cleaning Rounds -->
                         <div class="services-one__single">
                             <div class="services-one__single-inner text-center">
                                 <div class="services-one__single-icon">
                                     <span class="icon-house"></span>
                                 </div>
-                                <h2><a href="house-cleaning.html">Office Cleaning</a></h2>
-                                <p>It is a long established fact that a reader will be distracted by the readable
-                                    content of a page when looking at its layout.</p>
 
-                                <div class="services-one__single-btn">
-                                    <a href="house-cleaning.html">Read more <span class="icon-plus"></span></a>
+                                <h2>
+                                    <a href="house-cleaning.php">Deep Cleaning Rounds</a>
+                                </h2>
+
+                                <p>
+                                    Quarterly deep scrub for windows, grout, and
+                                    overlooked corners in every unit.
+                                </p>
+
                                 </div>
-                            </div>
 
                             <div class="shadow-one"></div>
                             <div class="shadow-two"></div>
                         </div>
-                        <!--End Services One Single-->
 
-                        <!--Start Services One Single-->
+
+                        <!-- Garbage and Recycling Runs -->
                         <div class="services-one__single">
                             <div class="services-one__single-inner text-center">
                                 <div class="services-one__single-icon">
-                                    <span class="icon-window-cleaning"></span>
+                                    <span class="icon-window-cleaner"></span>
                                 </div>
-                                <h2><a href="house-cleaning.html">Window Cleaning</a></h2>
-                                <p>It is a long established fact that a reader will be distracted by the readable
-                                    content of a page when looking at its layout.</p>
 
-                                <div class="services-one__single-btn">
-                                    <a href="house-cleaning.html">Read more <span class="icon-plus"></span></a>
+                                <h2>
+                                    <a href="house-cleaning.php">Garbage & Recycling Runs</a>
+                                </h2>
+
+                                <p>
+                                    Daily waste collection from each floor. Segregated
+                                    disposal as per society rules.
+                                </p>
+
                                 </div>
-                            </div>
 
                             <div class="shadow-one"></div>
                             <div class="shadow-two"></div>
                         </div>
-                        <!--End Services One Single-->
 
-                        <!--Start Services One Single-->
+
+                        <!-- Parking and Basement Upkeep -->
                         <div class="services-one__single">
                             <div class="services-one__single-inner text-center">
                                 <div class="services-one__single-icon">
-                                    <span class="icon-cleaning-service"></span>
+                                    <span class="icon-house-2"></span>
                                 </div>
-                                <h2><a href="house-cleaning.html">Kitchen Cleaning</a></h2>
-                                <p>It is a long established fact that a reader will be distracted by the readable
-                                    content of a page when looking at its layout.</p>
 
-                                <div class="services-one__single-btn">
-                                    <a href="house-cleaning.html">Read more <span class="icon-plus"></span></a>
+                                <h2>
+                                    <a href="house-cleaning.php">Parking & Basement Upkeep</a>
+                                </h2>
+
+                                <p>
+                                    Sweeping, mopping, and removing debris from
+                                    parking areas and basement levels.
+                                </p>
+
                                 </div>
-                            </div>
 
                             <div class="shadow-one"></div>
                             <div class="shadow-two"></div>
                         </div>
-                        <!--End Services One Single-->
 
-                        <!--Start Services One Single-->
+
+                        <!-- Custom Society Packages -->
                         <div class="services-one__single">
                             <div class="services-one__single-inner text-center">
                                 <div class="services-one__single-icon">
-                                    <span class="icon-toilet"></span>
+                                    <span class="icon-car-wash"></span>
                                 </div>
-                                <h2><a href="house-cleaning.html">Toilet Cleaning</a></h2>
-                                <p>It is a long established fact that a reader will be distracted by the readable
-                                    content of a page when looking at its layout.</p>
 
-                                <div class="services-one__single-btn">
-                                    <a href="house-cleaning.html">Read more <span class="icon-plus"></span></a>
+                                <h2>
+                                    <a href="house-cleaning.php">Custom Society Packages</a>
+                                </h2>
+
+                                <p>
+                                    Tailored schedules and scope for each building.
+                                    We work with your committee.
+                                </p>
+
                                 </div>
-                            </div>
 
                             <div class="shadow-one"></div>
                             <div class="shadow-two"></div>
                         </div>
-                        <!--End Services One Single-->
 
-                        <!--Start Services One Single-->
-                        <div class="services-one__single">
-                            <div class="services-one__single-inner text-center">
-                                <div class="services-one__single-icon">
-                                    <span class="icon-carpet-1"></span>
-                                </div>
-                                <h2><a href="house-cleaning.html">Carpet Cleaning</a></h2>
-                                <p>It is a long established fact that a reader will be distracted by the readable
-                                    content of a page when looking at its layout.</p>
-
-                                <div class="services-one__single-btn">
-                                    <a href="house-cleaning.html">Read more <span class="icon-plus"></span></a>
-                                </div>
-                            </div>
-
-                            <div class="shadow-one"></div>
-                            <div class="shadow-two"></div>
-                        </div>
-                        <!--End Services One Single-->
                     </div>
                 </div>
             </div>

@@ -154,5 +154,6 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
 Route::get('index', [WebPagesController::class, 'index'])->name('index');
 Route::get('about-us', [WebPagesController::class, 'aboutUs'])->name('about-us');
 Route::get('services', [WebPagesController::class, 'services'])->name('services');
+Route::get('contact-us', [WebPagesController::class, 'contactUs'])->name('contact-us');
 
 

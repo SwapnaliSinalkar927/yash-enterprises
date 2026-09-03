@@ -21,4 +21,8 @@ class PagesController extends Controller
     {
         return view('web.services');
     }
+
+    public function contactUs(){
+        return view('web.contact-us');
+    }
 }

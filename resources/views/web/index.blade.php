@@ -16,14 +16,13 @@
                     <div class="container">
                         <div class="main-slider-one__content">
                             <div class="tagline">
-                                <span>Welcome to Cleanin.</span>
+                                <span>Welcome to Yash Enterprises</span>
                             </div>
                             <div class="title-box">
-                                <h2>Cleanin a cleaning <br> company.</h2>
+                                <h2>Professional Cleaning <br> Services</h2>
                             </div>
                             <div class="text-box">
-                                <p>We are committed to the best quality in the field of industrial cleaning, home
-                                    and <br> garden cleaning.</p>
+                                <p>Reliable and affordable cleaning solutions for offices, <br> homes & commercial spaces.</p>
                             </div>
 
                             <div class="main-slider-one__btn">
@@ -47,14 +46,13 @@
                     <div class="container">
                         <div class="main-slider-one__content">
                             <div class="tagline">
-                                <span>Welcome to Cleanin.</span>
+                                <span>Welcome to Yash Enterprises</span>
                             </div>
                             <div class="title-box">
-                                <h2>Best Cleaning Services <br> In Town</h2>
+                                <h2>We Make Clean <br> Look Easy</h2>
                             </div>
                             <div class="text-box">
-                                <p>We are committed to the best quality in the field of industrial cleaning, home
-                                    and <br> garden cleaning.</p>
+                                <p>Complete cleaning solutions tailored <br> to your needs.</p>
                             </div>
                             <div class="main-slider-one__btn">
                                 <a class="thm-btn" href="contact-1.html">Take Our Service
@@ -77,14 +75,13 @@
                     <div class="container">
                         <div class="main-slider-one__content">
                             <div class="tagline">
-                                <span>Welcome to Cleanin.</span>
+                                <span>Welcome to Yash Enterprises</span>
                             </div>
                             <div class="title-box">
-                                <h2>So Fresh & So Clean... <br> We Promise!</h2>
+                                <h2>Your Space,<br> Our Responsibility</h2>
                             </div>
                             <div class="text-box">
-                                <p>We are committed to the best quality in the field of industrial cleaning, home
-                                    and <br> garden cleaning.</p>
+                                <p>Professional Cleaning Services <br> You Can Trust</p>
                             </div>
                             <div class="main-slider-one__btn">
                                 <a class="thm-btn" href="contact-1.html">Take Our Service
@@ -180,19 +177,19 @@
                                     </div>
 
                                     <div class="text title-animation">
-                                        <h4>About Cleaning Agency</h4>
+                                        <h4>About Yash Enterprises</h4>
                                     </div>
                                 </div>
-                                <h2 class="sec-title__title title-animation">We Are A Highly Experienced <br> Cleaning
-                                    Service Company
+                                <h2 class="sec-title__title title-animation">Where Cleanliness Meets Excellence
                                 </h2>
                             </div>
 
                             <div class="about-one__content-text">
-                                <p>It is a long established fact that a reader will be distracted by the readable
-                                    content of a page when looking at its layout. The point of using Lorem Ipsum is that
-                                    it has a more-or-less normal distribution of letters, as opposed to using 'Content
-                                    here,</p>
+                                <p>We provide reliable and professional cleaning services
+                                     designed to keep your spaces clean, fresh, and 
+                                     comfortable.With a focus on reliability, professionalism, 
+                                     and customer satisfaction, we make cleanliness simple and 
+                                     hassle-free.</p>
                             </div>
 
                             <div class="about-one__content-list">
@@ -203,9 +200,12 @@
                                         </div>
 
                                         <div class="content-box">
-                                            <h3>Commercial Cleaning</h3>
-                                            <p>There are many variations of passages of Lorem Ipsum available, but the
-                                                majority have suffered alteration in some form,</p>
+                                            <h3>Weekly apartment service</h3>
+                                            <p>Keep your apartment fresh, clean, and comfortable 
+                                                with our reliable weekly cleaning service. Our 
+                                                team takes care of dusting, mopping, surface 
+                                                cleaning, and other essential areas to maintain a
+                                                 spotless home every week.</p>
                                         </div>
                                     </li>
 
@@ -215,16 +215,19 @@
                                         </div>
 
                                         <div class="content-box">
-                                            <h3>Residential Cleaning </h3>
-                                            <p>There are many variations of passages of Lorem Ipsum available, but the
-                                                majority have suffered alteration in some form,</p>
+                                            <h3>Common area maintenance </h3>
+                                            <p>We keep shared spaces clean, hygienic, and 
+                                                welcoming with regular common area maintenance. 
+                                                From corridors and entrances to stairways and 
+                                                shared facilities, our team ensures every area is
+                                                 well-maintained and presentable.</p>
                                         </div>
                                     </li>
                                 </ul>
                             </div>
 
                             <div class="about-one__content-btn">
-                                <a class="thm-btn" href="about-1.html">Read More
+                                <a class="{{ asset('about-us') }}" href="about-1.html">Read More
                                     <i class="icon-next"></i>
                                     <span class="hover-btn hover-bx"></span>
                                     <span class="hover-btn hover-bx2"></span>
@@ -265,249 +268,124 @@
                         Services For You </h2>
                 </div>
 
-                <div class="services-one__inner">
-                    <div class="services-one__carousel owl-carousel owl-theme thm-dot-style1">
-                        <!--Start Services One Single-->
-                        <div class="services-one__single">
-                            <div class="services-one__single-inner text-center">
-                                <div class="services-one__single-icon">
-                                    <span class="icon-house-2"></span>
-                                </div>
-                                <h2><a href="house-cleaning.html">House Cleaning</a></h2>
-                                <p>It is a long established fact that a reader will be distracted by the readable
-                                    content of a page when looking at its layout.</p>
-
-                                <div class="services-one__single-btn">
-                                    <a href="house-cleaning.html">Read more <span class="icon-plus"></span></a>
-                                </div>
+                <div class="container">
+                    <div class="row">
+                    <!--Start Services Five Single-->
+                    <div class="col-xl-4 col-lg-6 col-md-6">
+                        <div class="services-five__single">
+                        <div class="services-five__single-img">
+                            <div class="services-five__single-img-inner">
+                            <img style="height:340px" src="{{ asset('images/services/serv1.webp') }}" alt="">
                             </div>
-
-                            <div class="shadow-one"></div>
-                            <div class="shadow-two"></div>
-                        </div>
-                        <!--End Services One Single-->
-
-                        <!--Start Services One Single-->
-                        <div class="services-one__single">
-                            <div class="services-one__single-inner text-center">
-                                <div class="services-one__single-icon">
-                                    <span class="icon-house"></span>
-                                </div>
-                                <h2><a href="house-cleaning.html">Office Cleaning</a></h2>
-                                <p>It is a long established fact that a reader will be distracted by the readable
-                                    content of a page when looking at its layout.</p>
-
-                                <div class="services-one__single-btn">
-                                    <a href="house-cleaning.html">Read more <span class="icon-plus"></span></a>
-                                </div>
+                            <div class="icon">
+                            <span class="icon-bed"></span>
                             </div>
-
-                            <div class="shadow-one"></div>
-                            <div class="shadow-two"></div>
                         </div>
-                        <!--End Services One Single-->
+                        <div class="services-five__single-content text-center">
+                            <h2><a href="house-cleaning.php">Weekly apartment service</a></h2>
+                            <p>Full dusting, mopping, and bathroom scrub in <br>every flat. Same crew each week.</p>
+                        </div>
+                        </div>
+                    </div>
+                    <!--End Services Five Single-->
 
-                        <!--Start Services One Single-->
-                        <div class="services-one__single">
-                            <div class="services-one__single-inner text-center">
-                                <div class="services-one__single-icon">
-                                    <span class="icon-window-cleaning"></span>
-                                </div>
-                                <h2><a href="house-cleaning.html">Window Cleaning</a></h2>
-                                <p>It is a long established fact that a reader will be distracted by the readable
-                                    content of a page when looking at its layout.</p>
-
-                                <div class="services-one__single-btn">
-                                    <a href="house-cleaning.html">Read more <span class="icon-plus"></span></a>
-                                </div>
+                    <!--Start Services Five Single-->
+                    <div class="col-xl-4 col-lg-6 col-md-6">
+                        <div class="services-five__single">
+                        <div class="services-five__single-img">
+                            <div class="services-five__single-img-inner">
+                            <img style="height:340px" src="{{ asset('images/services/serv2.webp') }}" alt="">
                             </div>
-
-                            <div class="shadow-one"></div>
-                            <div class="shadow-two"></div>
-                        </div>
-                        <!--End Services One Single-->
-
-                        <!--Start Services One Single-->
-                        <div class="services-one__single">
-                            <div class="services-one__single-inner text-center">
-                                <div class="services-one__single-icon">
-                                    <span class="icon-cleaning-service"></span>
-                                </div>
-                                <h2><a href="house-cleaning.html">Kitchen Cleaning</a></h2>
-                                <p>It is a long established fact that a reader will be distracted by the readable
-                                    content of a page when looking at its layout.</p>
-
-                                <div class="services-one__single-btn">
-                                    <a href="house-cleaning.html">Read more <span class="icon-plus"></span></a>
-                                </div>
+                            <div class="icon">
+                            <span class="icon-window-cleaning"></span>
                             </div>
-
-                            <div class="shadow-one"></div>
-                            <div class="shadow-two"></div>
                         </div>
-                        <!--End Services One Single-->
+                        <div class="services-five__single-content text-center">
+                            <h2><a href="house-cleaning.php">Common area maintenance</a></h2>
+                            <p>Lobbies, staircases, and corridors cleaned on a set <br>schedule. No missed spots.</p>
+                        </div>
+                        </div>
+                    </div>
+                    <!--End Services Five Single-->
 
-                        <!--Start Services One Single-->
-                        <div class="services-one__single">
-                            <div class="services-one__single-inner text-center">
-                                <div class="services-one__single-icon">
-                                    <span class="icon-toilet"></span>
-                                </div>
-                                <h2><a href="house-cleaning.html">Toilet Cleaning</a></h2>
-                                <p>It is a long established fact that a reader will be distracted by the readable
-                                    content of a page when looking at its layout.</p>
-
-                                <div class="services-one__single-btn">
-                                    <a href="house-cleaning.html">Read more <span class="icon-plus"></span></a>
-                                </div>
+                    <!--Start Services Five Single-->
+                    <div class="col-xl-4 col-lg-6 col-md-6">
+                        <div class="services-five__single">
+                        <div class="services-five__single-img">
+                            <div class="services-five__single-img-inner">
+                            <img style="height:340px" src="{{ asset('images/services/serv3.webp') }}" alt="">
                             </div>
-
-                            <div class="shadow-one"></div>
-                            <div class="shadow-two"></div>
-                        </div>
-                        <!--End Services One Single-->
-
-                        <!--Start Services One Single-->
-                        <div class="services-one__single">
-                            <div class="services-one__single-inner text-center">
-                                <div class="services-one__single-icon">
-                                    <span class="icon-carpet-1"></span>
-                                </div>
-                                <h2><a href="house-cleaning.html">Carpet Cleaning</a></h2>
-                                <p>It is a long established fact that a reader will be distracted by the readable
-                                    content of a page when looking at its layout.</p>
-
-                                <div class="services-one__single-btn">
-                                    <a href="house-cleaning.html">Read more <span class="icon-plus"></span></a>
-                                </div>
+                            <div class="icon">
+                            <span class="icon-house"></span>
                             </div>
-
-                            <div class="shadow-one"></div>
-                            <div class="shadow-two"></div>
                         </div>
-                        <!--End Services One Single-->
+                        <div class="services-five__single-content text-center">
+                            <h2><a href="house-cleaning.php">Deep cleaning rounds</a></h2>
+                            <p>Quarterly deep scrub for windows, grout, and <br>overlooked corners in every unit.</p>
+                        </div>
+                        </div>
+                    </div>
+                    <!--End Services Five Single-->
 
-                        <!--Start Services One Single-->
-                        <div class="services-one__single">
-                            <div class="services-one__single-inner text-center">
-                                <div class="services-one__single-icon">
-                                    <span class="icon-house-2"></span>
-                                </div>
-                                <h2><a href="house-cleaning.html">House Cleaning</a></h2>
-                                <p>It is a long established fact that a reader will be distracted by the readable
-                                    content of a page when looking at its layout.</p>
-
-                                <div class="services-one__single-btn">
-                                    <a href="house-cleaning.html">Read more <span class="icon-plus"></span></a>
-                                </div>
+                    <!--Start Services Five Single-->
+                    <div class="col-xl-4 col-lg-6 col-md-6">
+                        <div class="services-five__single">
+                        <div class="services-five__single-img">
+                            <div class="services-five__single-img-inner">
+                            <img style="height:340px" src="{{ asset('images/services/serv4.webp') }}" alt="">
                             </div>
-
-                            <div class="shadow-one"></div>
-                            <div class="shadow-two"></div>
-                        </div>
-                        <!--End Services One Single-->
-
-                        <!--Start Services One Single-->
-                        <div class="services-one__single">
-                            <div class="services-one__single-inner text-center">
-                                <div class="services-one__single-icon">
-                                    <span class="icon-house"></span>
-                                </div>
-                                <h2><a href="house-cleaning.html">Office Cleaning</a></h2>
-                                <p>It is a long established fact that a reader will be distracted by the readable
-                                    content of a page when looking at its layout.</p>
-
-                                <div class="services-one__single-btn">
-                                    <a href="house-cleaning.html">Read more <span class="icon-plus"></span></a>
-                                </div>
+                            <div class="icon">
+                            <span class="icon-window-cleaner"></span>
                             </div>
-
-                            <div class="shadow-one"></div>
-                            <div class="shadow-two"></div>
                         </div>
-                        <!--End Services One Single-->
+                        <div class="services-five__single-content text-center">
+                            <h2><a href="house-cleaning.php">Garbage and recycling runs</a></h2>
+                            <p>Daily waste collection from each floor. Segregated <br>disposal as per society rules.</p>
+                        </div>
+                        </div>
+                    </div>
+                    <!--End Services Five Single-->
 
-                        <!--Start Services One Single-->
-                        <div class="services-one__single">
-                            <div class="services-one__single-inner text-center">
-                                <div class="services-one__single-icon">
-                                    <span class="icon-window-cleaning"></span>
-                                </div>
-                                <h2><a href="house-cleaning.html">Window Cleaning</a></h2>
-                                <p>It is a long established fact that a reader will be distracted by the readable
-                                    content of a page when looking at its layout.</p>
-
-                                <div class="services-one__single-btn">
-                                    <a href="house-cleaning.html">Read more <span class="icon-plus"></span></a>
-                                </div>
+                    <!--Start Services Five Single-->
+                    <div class="col-xl-4 col-lg-6 col-md-6">
+                        <div class="services-five__single">
+                        <div class="services-five__single-img">
+                            <div class="services-five__single-img-inner">
+                            <img style="height:340px" src="{{ asset('images/services/serv5.webp') }}" alt="">
                             </div>
-
-                            <div class="shadow-one"></div>
-                            <div class="shadow-two"></div>
-                        </div>
-                        <!--End Services One Single-->
-
-                        <!--Start Services One Single-->
-                        <div class="services-one__single">
-                            <div class="services-one__single-inner text-center">
-                                <div class="services-one__single-icon">
-                                    <span class="icon-cleaning-service"></span>
-                                </div>
-                                <h2><a href="house-cleaning.html">Kitchen Cleaning</a></h2>
-                                <p>It is a long established fact that a reader will be distracted by the readable
-                                    content of a page when looking at its layout.</p>
-
-                                <div class="services-one__single-btn">
-                                    <a href="house-cleaning.html">Read more <span class="icon-plus"></span></a>
-                                </div>
+                            <div class="icon">
+                            <span class="icon-house-2"></span>
                             </div>
-
-                            <div class="shadow-one"></div>
-                            <div class="shadow-two"></div>
                         </div>
-                        <!--End Services One Single-->
+                        <div class="services-five__single-content text-center">
+                            <h2><a href="house-cleaning.php">Parking and basement upkeep</a></h2>
+                            <p>Sweeping, mopping, and removing debris from <br>parking areas and basement levels.</p>
+                        </div>
+                        </div>
+                    </div>
+                    <!--End Services Five Single-->
 
-                        <!--Start Services One Single-->
-                        <div class="services-one__single">
-                            <div class="services-one__single-inner text-center">
-                                <div class="services-one__single-icon">
-                                    <span class="icon-toilet"></span>
-                                </div>
-                                <h2><a href="house-cleaning.html">Toilet Cleaning</a></h2>
-                                <p>It is a long established fact that a reader will be distracted by the readable
-                                    content of a page when looking at its layout.</p>
-
-                                <div class="services-one__single-btn">
-                                    <a href="house-cleaning.html">Read more <span class="icon-plus"></span></a>
-                                </div>
+                    <!--Start Services Five Single-->
+                    <div class="col-xl-4 col-lg-6 col-md-6">
+                        <div class="services-five__single">
+                        <div class="services-five__single-img">
+                            <div class="services-five__single-img-inner">
+                            <img style="height:340px" src="{{ asset('images/services/serv6.webp') }}" alt="">
                             </div>
-
-                            <div class="shadow-one"></div>
-                            <div class="shadow-two"></div>
-                        </div>
-                        <!--End Services One Single-->
-
-                        <!--Start Services One Single-->
-                        <div class="services-one__single">
-                            <div class="services-one__single-inner text-center">
-                                <div class="services-one__single-icon">
-                                    <span class="icon-carpet-1"></span>
-                                </div>
-                                <h2><a href="house-cleaning.html">Carpet Cleaning</a></h2>
-                                <p>It is a long established fact that a reader will be distracted by the readable
-                                    content of a page when looking at its layout.</p>
-
-                                <div class="services-one__single-btn">
-                                    <a href="house-cleaning.html">Read more <span class="icon-plus"></span></a>
-                                </div>
+                            <div class="icon">
+                            <span class="icon-car-wash"></span>
                             </div>
-
-                            <div class="shadow-one"></div>
-                            <div class="shadow-two"></div>
                         </div>
-                        <!--End Services One Single-->
+                        <div class="services-five__single-content text-center">
+                            <h2><a href="house-cleaning.php">Custom society packages</a></h2>
+                            <p>Tailored schedules and scope for each building. We <br>work with your committee</p>
+                        </div>
+                        </div>
+                    </div>
+                    <!--End Services Five Single-->
                     </div>
                 </div>
+              
             </div>
         </div>
         <!--End Services One-->
@@ -551,7 +429,7 @@
                         <div class="project-one__single">
                             <div class="project-one__single-img">
                                 <div class="inner">
-                                    <img src="{{ asset('images/project/project-v1-img1.jpg') }}" alt="#">
+                                    <img style="height:400px" src="{{ asset('images/project/proj1.webp') }}" alt="#">
                                 </div>
 
                                 <div class="project-one__single-content">
@@ -573,7 +451,7 @@
                         <div class="project-one__single">
                             <div class="project-one__single-img">
                                 <div class="inner">
-                                    <img src="{{ asset('images/project/project-v1-img2.jpg') }}" alt="#">
+                                    <img style="height:400px" src="{{ asset('images/project/proj2.webp') }}" alt="#">
                                 </div>
 
                                 <div class="project-one__single-content">
@@ -595,7 +473,7 @@
                         <div class="project-one__single">
                             <div class="project-one__single-img">
                                 <div class="inner">
-                                    <img src="{{ asset('images/project/project-v1-img3.jpg') }}" alt="#">
+                                    <img style="height:400px" src="{{ asset('images/project/proj3.webp') }}" alt="#">
                                 </div>
 
                                 <div class="project-one__single-content">
@@ -617,7 +495,7 @@
                         <div class="project-one__single">
                             <div class="project-one__single-img">
                                 <div class="inner">
-                                    <img src="{{ asset('images/project/project-v1-img4.jpg') }}" alt="#">
+                                    <img style="height:400px" src="{{ asset('images/project/proj4.webp') }}" alt="#">
                                 </div>
 
                                 <div class="project-one__single-content">
@@ -639,7 +517,7 @@
                         <div class="project-one__single">
                             <div class="project-one__single-img">
                                 <div class="inner">
-                                    <img src="{{ asset('images/project/project-v1-img5.jpg') }}" alt="#">
+                                    <img style="height:400px" src="{{ asset('images/project/proj5.webp') }}" alt="#">
                                 </div>
 
                                 <div class="project-one__single-content">
@@ -661,7 +539,7 @@
                         <div class="project-one__single">
                             <div class="project-one__single-img">
                                 <div class="inner">
-                                    <img src="{{ asset('images/project/project-v1-img1.jpg') }}" alt="#">
+                                    <img style="height:400px" src="{{ asset('images/project/proj6.webp') }}" alt="#">
                                 </div>
 
                                 <div class="project-one__single-content">
@@ -683,7 +561,7 @@
                         <div class="project-one__single">
                             <div class="project-one__single-img">
                                 <div class="inner">
-                                    <img src="{{ asset('images/project/project-v1-img2.jpg') }}" alt="#">
+                                    <img style="height:400px" src="{{ asset('images/project/proj7.webp') }}" alt="#">
                                 </div>
 
                                 <div class="project-one__single-content">
@@ -705,7 +583,7 @@
                         <div class="project-one__single">
                             <div class="project-one__single-img">
                                 <div class="inner">
-                                    <img src="{{ asset('images/project/project-v1-img3.jpg') }}" alt="#">
+                                    <img style="height:400px" src="{{ asset('images/project/proj8.webp') }}" alt="#">
                                 </div>
 
                                 <div class="project-one__single-content">
@@ -716,270 +594,6 @@
 
                                     <div class="icon-box">
                                         <a class="img-popup" href="{{ asset('images/project/project-v1-img3.jpg') }}"><span
-                                                class="icon-plus"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--End Project One Single-->
-
-                        <!--Start Project One Single-->
-                        <div class="project-one__single">
-                            <div class="project-one__single-img">
-                                <div class="inner">
-                                    <img src="{{ asset('images/project/project-v1-img4.jpg') }}" alt="#">
-                                </div>
-
-                                <div class="project-one__single-content">
-                                    <div class="text-box">
-                                        <h2><a href="projects-details.html">House Cleaning</a></h2>
-                                        <p>Los Angeles, USA</p>
-                                    </div>
-
-                                    <div class="icon-box">
-                                        <a class="img-popup" href="{{ asset('images/project/project-v1-img4.jpg') }}"><span
-                                                class="icon-plus"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--End Project One Single-->
-
-                        <!--Start Project One Single-->
-                        <div class="project-one__single">
-                            <div class="project-one__single-img">
-                                <div class="inner">
-                                    <img src="{{ asset('images/project/project-v1-img5.jpg') }}" alt="#">
-                                </div>
-
-                                <div class="project-one__single-content">
-                                    <div class="text-box">
-                                        <h2><a href="projects-details.html">Window Cleaning</a></h2>
-                                        <p>Los Angeles, USA</p>
-                                    </div>
-
-                                    <div class="icon-box">
-                                        <a class="img-popup" href="{{ asset('images/project/project-v1-img5.jpg') }}"><span
-                                                class="icon-plus"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--End Project One Single-->
-
-                        <!--Start Project One Single-->
-                        <div class="project-one__single">
-                            <div class="project-one__single-img">
-                                <div class="inner">
-                                    <img src="{{ asset('images/project/project-v1-img1.jpg') }}" alt="#">
-                                </div>
-
-                                <div class="project-one__single-content">
-                                    <div class="text-box">
-                                        <h2><a href="projects-details.html">Floor Cleaning</a></h2>
-                                        <p>Los Angeles, USA</p>
-                                    </div>
-
-                                    <div class="icon-box">
-                                        <a class="img-popup" href="{{ asset('images/project/project-v1-img1.jpg') }}"><span
-                                                class="icon-plus"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--End Project One Single-->
-
-                        <!--Start Project One Single-->
-                        <div class="project-one__single">
-                            <div class="project-one__single-img">
-                                <div class="inner">
-                                    <img src="{{ asset('images/project/project-v1-img2.jpg') }}" alt="#">
-                                </div>
-
-                                <div class="project-one__single-content">
-                                    <div class="text-box">
-                                        <h2><a href="projects-details.html">Office Cleaning</a></h2>
-                                        <p>Los Angeles, USA</p>
-                                    </div>
-
-                                    <div class="icon-box">
-                                        <a class="img-popup" href="{{ asset('images/project/project-v1-img2.jpg') }}"><span
-                                                class="icon-plus"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--End Project One Single-->
-
-                        <!--Start Project One Single-->
-                        <div class="project-one__single">
-                            <div class="project-one__single-img">
-                                <div class="inner">
-                                    <img src="{{ asset('images/project/project-v1-img3.jpg') }}" alt="#">
-                                </div>
-
-                                <div class="project-one__single-content">
-                                    <div class="text-box">
-                                        <h2><a href="projects-details.html">Kitchen Cleaning</a></h2>
-                                        <p>Los Angeles, USA</p>
-                                    </div>
-
-                                    <div class="icon-box">
-                                        <a class="img-popup" href="{{ asset('images/project/project-v1-img3.jpg') }}"><span
-                                                class="icon-plus"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--End Project One Single-->
-
-                        <!--Start Project One Single-->
-                        <div class="project-one__single">
-                            <div class="project-one__single-img">
-                                <div class="inner">
-                                    <img src="{{ asset('images/project/project-v1-img4.jpg') }}" alt="#">
-                                </div>
-
-                                <div class="project-one__single-content">
-                                    <div class="text-box">
-                                        <h2><a href="projects-details.html">House Cleaning</a></h2>
-                                        <p>Los Angeles, USA</p>
-                                    </div>
-
-                                    <div class="icon-box">
-                                        <a class="img-popup" href="{{ asset('images/project/project-v1-img4.jpg') }}"><span
-                                                class="icon-plus"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--End Project One Single-->
-
-                        <!--Start Project One Single-->
-                        <div class="project-one__single">
-                            <div class="project-one__single-img">
-                                <div class="inner">
-                                    <img src="{{ asset('images/project/project-v1-img5.jpg') }}" alt="#">
-                                </div>
-
-                                <div class="project-one__single-content">
-                                    <div class="text-box">
-                                        <h2><a href="projects-details.html">Window Cleaning</a></h2>
-                                        <p>Los Angeles, USA</p>
-                                    </div>
-
-                                    <div class="icon-box">
-                                        <a class="img-popup" href="{{ asset('images/project/project-v1-img5.jpg') }}"><span
-                                                class="icon-plus"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--End Project One Single-->
-
-                        <!--Start Project One Single-->
-                        <div class="project-one__single">
-                            <div class="project-one__single-img">
-                                <div class="inner">
-                                    <img src="{{ asset('images/project/project-v1-img1.jpg') }}" alt="#">
-                                </div>
-
-                                <div class="project-one__single-content">
-                                    <div class="text-box">
-                                        <h2><a href="projects-details.html">Floor Cleaning</a></h2>
-                                        <p>Los Angeles, USA</p>
-                                    </div>
-
-                                    <div class="icon-box">
-                                        <a class="img-popup" href="{{ asset('images/project/project-v1-img1.jpg') }}"><span
-                                                class="icon-plus"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--End Project One Single-->
-
-                        <!--Start Project One Single-->
-                        <div class="project-one__single">
-                            <div class="project-one__single-img">
-                                <div class="inner">
-                                    <img src="{{ asset('images/project/project-v1-img2.jpg') }}" alt="#">
-                                </div>
-
-                                <div class="project-one__single-content">
-                                    <div class="text-box">
-                                        <h2><a href="projects-details.html">Office Cleaning</a></h2>
-                                        <p>Los Angeles, USA</p>
-                                    </div>
-
-                                    <div class="icon-box">
-                                        <a class="img-popup" href="{{ asset('images/project/project-v1-img2.jpg') }}"><span
-                                                class="icon-plus"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--End Project One Single-->
-
-                        <!--Start Project One Single-->
-                        <div class="project-one__single">
-                            <div class="project-one__single-img">
-                                <div class="inner">
-                                    <img src="{{ asset('images/project/project-v1-img3.jpg') }}" alt="#">
-                                </div>
-
-                                <div class="project-one__single-content">
-                                    <div class="text-box">
-                                        <h2><a href="projects-details.html">Kitchen Cleaning</a></h2>
-                                        <p>Los Angeles, USA</p>
-                                    </div>
-
-                                    <div class="icon-box">
-                                        <a class="img-popup" href="{{ asset('images/project/project-v1-img3.jpg') }}"><span
-                                                class="icon-plus"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--End Project One Single-->
-
-                        <!--Start Project One Single-->
-                        <div class="project-one__single">
-                            <div class="project-one__single-img">
-                                <div class="inner">
-                                    <img src="{{ asset('images/project/project-v1-img4.jpg') }}" alt="#">
-                                </div>
-
-                                <div class="project-one__single-content">
-                                    <div class="text-box">
-                                        <h2><a href="projects-details.html">House Cleaning</a></h2>
-                                        <p>Los Angeles, USA</p>
-                                    </div>
-
-                                    <div class="icon-box">
-                                        <a class="img-popup" href="{{ asset('images/project/project-v1-img4.jpg') }}"><span
-                                                class="icon-plus"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--End Project One Single-->
-
-                        <!--Start Project One Single-->
-                        <div class="project-one__single">
-                            <div class="project-one__single-img">
-                                <div class="inner">
-                                    <img src="{{ asset('images/project/project-v1-img5.jpg') }}" alt="#">
-                                </div>
-
-                                <div class="project-one__single-content">
-                                    <div class="text-box">
-                                        <h2><a href="projects-details.html">Window Cleaning</a></h2>
-                                        <p>Los Angeles, USA</p>
-                                    </div>
-
-                                    <div class="icon-box">
-                                        <a class="img-popup" href="{{ asset('images/project/project-v1-img5.jpg') }}"><span
                                                 class="icon-plus"></span></a>
                                     </div>
                                 </div>
@@ -1033,11 +647,10 @@
 
                                 <div class="counter-one__single-content">
                                     <div class="count-box">
-                                        <h2 class="count-text" data-stop="500" data-speed="1500">00</h2>
-                                        <span class="k">k</span>
+                                        <h2 class="count-text" data-stop="3" data-speed="3">3</h2>
                                         <span class="plus">+</span>
                                     </div>
-                                    <p>Awards Win</p>
+                                    <p>Buildings serviced</p>
                                 </div>
                             </div>
                         </div>
@@ -1055,10 +668,11 @@
 
                                 <div class="counter-one__single-content">
                                     <div class="count-box">
-                                        <h2 class="count-text" data-stop="815" data-speed="1500">00</h2>
-                                        <span class="k">k</span>
+                                        <h2 class="count-text" data-stop="4" data-speed="4">4</h2>
                                     </div>
-                                    <p>Completed Project</p>
+                                    <p>Person running it
+
+</p>
                                 </div>
                             </div>
                         </div>
@@ -1076,11 +690,10 @@
 
                                 <div class="counter-one__single-content">
                                     <div class="count-box">
-                                        <h2 class="count-text" data-stop="999" data-speed="1500">00</h2>
-                                        <span class="k">k</span>
+                                        <h2 class="count-text" data-stop="3.5" data-speed="3.5">3.5</h2>
                                         <span class="plus">+</span>
                                     </div>
-                                    <p>Happy Clients</p>
+                                    <p>Years in Chakan</p>
                                 </div>
                             </div>
                         </div>
@@ -1098,11 +711,10 @@
 
                                 <div class="counter-one__single-content">
                                     <div class="count-box">
-                                        <h2 class="count-text" data-stop="550" data-speed="1500">00</h2>
-                                        <span class="k">k</span>
-                                        <span class="plus">+</span>
+                                        <h2 class="count-text" data-stop="100" data-speed="100"></h2>
+                                        <span class="plus">%</span>
                                     </div>
-                                    <p>Finish The Job</p>
+                                    <p>On-time arrival</p>
                                 </div>
                             </div>
                         </div>
@@ -1114,7 +726,7 @@
         <!--End Counter One-->
 
         <!--Start Team One-->
-        <section class="team-one">
+        <!-- <section class="team-one">
             <div class="container">
                 <div class="sec-title text-center sec-title-animation animation-style1">
                     <div class="sec-title__tagline center">
@@ -1132,7 +744,7 @@
 
                 <div class="team-one__carousel owl-carousel owl-theme thm-dot-style1">
 
-                    <!--Start Team One Single-->
+                    
                     <div class="team-one__single">
                         <div class="team-one__single-inner">
                             <div class="team-one__single-img">
@@ -1158,9 +770,7 @@
                             </div>
                         </div>
                     </div>
-                    <!--End Team One Single-->
-
-                    <!--Start Team One Single-->
+                  
                     <div class="team-one__single">
                         <div class="team-one__single-inner">
                             <div class="team-one__single-img">
@@ -1186,9 +796,7 @@
                             </div>
                         </div>
                     </div>
-                    <!--End Team One Single-->
-
-                    <!--Start Team One Single-->
+                  
                     <div class="team-one__single">
                         <div class="team-one__single-inner">
                             <div class="team-one__single-img">
@@ -1214,9 +822,7 @@
                             </div>
                         </div>
                     </div>
-                    <!--End Team One Single-->
-
-                    <!--Start Team One Single-->
+                   
                     <div class="team-one__single">
                         <div class="team-one__single-inner">
                             <div class="team-one__single-img">
@@ -1242,9 +848,7 @@
                             </div>
                         </div>
                     </div>
-                    <!--End Team One Single-->
-
-                    <!--Start Team One Single-->
+                  
                     <div class="team-one__single">
                         <div class="team-one__single-inner">
                             <div class="team-one__single-img">
@@ -1270,9 +874,7 @@
                             </div>
                         </div>
                     </div>
-                    <!--End Team One Single-->
-
-                    <!--Start Team One Single-->
+                  
                     <div class="team-one__single">
                         <div class="team-one__single-inner">
                             <div class="team-one__single-img">
@@ -1298,9 +900,7 @@
                             </div>
                         </div>
                     </div>
-                    <!--End Team One Single-->
-
-                    <!--Start Team One Single-->
+                 
                     <div class="team-one__single">
                         <div class="team-one__single-inner">
                             <div class="team-one__single-img">
@@ -1326,9 +926,7 @@
                             </div>
                         </div>
                     </div>
-                    <!--End Team One Single-->
-
-                    <!--Start Team One Single-->
+                   
                     <div class="team-one__single">
                         <div class="team-one__single-inner">
                             <div class="team-one__single-img">
@@ -1354,9 +952,7 @@
                             </div>
                         </div>
                     </div>
-                    <!--End Team One Single-->
-
-                    <!--Start Team One Single-->
+                  
                     <div class="team-one__single">
                         <div class="team-one__single-inner">
                             <div class="team-one__single-img">
@@ -1382,9 +978,7 @@
                             </div>
                         </div>
                     </div>
-                    <!--End Team One Single-->
-
-                    <!--Start Team One Single-->
+                   
                     <div class="team-one__single">
                         <div class="team-one__single-inner">
                             <div class="team-one__single-img">
@@ -1410,9 +1004,7 @@
                             </div>
                         </div>
                     </div>
-                    <!--End Team One Single-->
-
-                    <!--Start Team One Single-->
+                   
                     <div class="team-one__single">
                         <div class="team-one__single-inner">
                             <div class="team-one__single-img">
@@ -1438,9 +1030,7 @@
                             </div>
                         </div>
                     </div>
-                    <!--End Team One Single-->
-
-                    <!--Start Team One Single-->
+                  
                     <div class="team-one__single">
                         <div class="team-one__single-inner">
                             <div class="team-one__single-img">
@@ -1466,9 +1056,7 @@
                             </div>
                         </div>
                     </div>
-                    <!--End Team One Single-->
-
-                    <!--Start Team One Single-->
+                   
                     <div class="team-one__single">
                         <div class="team-one__single-inner">
                             <div class="team-one__single-img">
@@ -1494,9 +1082,7 @@
                             </div>
                         </div>
                     </div>
-                    <!--End Team One Single-->
-
-                    <!--Start Team One Single-->
+                   
                     <div class="team-one__single">
                         <div class="team-one__single-inner">
                             <div class="team-one__single-img">
@@ -1522,9 +1108,7 @@
                             </div>
                         </div>
                     </div>
-                    <!--End Team One Single-->
-
-                    <!--Start Team One Single-->
+                  
                     <div class="team-one__single">
                         <div class="team-one__single-inner">
                             <div class="team-one__single-img">
@@ -1550,9 +1134,7 @@
                             </div>
                         </div>
                     </div>
-                    <!--End Team One Single-->
-
-                    <!--Start Team One Single-->
+                  
                     <div class="team-one__single">
                         <div class="team-one__single-inner">
                             <div class="team-one__single-img">
@@ -1578,10 +1160,10 @@
                             </div>
                         </div>
                     </div>
-                    <!--End Team One Single-->
+                   
                 </div>
             </div>
-        </section>
+        </section> -->
         <!--End Team One-->
 
         <!--Start Contact One -->
@@ -1732,10 +1314,10 @@
                         </div>
 
                         <div class="text title-animation">
-                            <h4>Testimonials</h4>
+                            <h4>Our Customer’s Feedback</h4>
                         </div>
                     </div>
-                    <h2 class="sec-title__title title-animation">Our Customer’s Feedback</h2>
+                    <h2 class="sec-title__title title-animation">Over 850+ shifts completed and counting</h2>
                 </div>
 
                 <div class="row">
@@ -1748,9 +1330,9 @@
                                     <img src="{{ asset('images/testimonial/testimonial-v1-img1.jpg') }}" alt="">
                                 </div>
                                 <div class="testimonial-one__single-inner">
-                                    <h2>Savannah Nguyen</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority
-                                        have suffered alteration in some form.</p>
+                                    <h2>Rajesh Patil</h2>
+                                    <h6 style="font-weight:600;margin-bottom:20px">Chairman, Green Valley Society</h6>
+                                    <p>Team handles our society's common area cleaning. Never had to follow up. The lobby looks good every morning.</p>
 
                                     <div class="rating-box">
                                         <a href="#"><i class="icon-star"></i></a>
@@ -1772,9 +1354,9 @@
                                     <img src="{{ asset('images/testimonial/testimonial-v1-img2.jpg') }}" alt="">
                                 </div>
                                 <div class="testimonial-one__single-inner">
-                                    <h2>Dwayne Johnson</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority
-                                        have suffered alteration in some form.</p>
+                                    <h2>Kavita Shinde</h2>
+                                    <h6 style="font-weight:600;margin-bottom:20px">Operations Manager, Apex Industries</h6>
+                                    <p>We run a busy packaging unit. Yash sends the same crew every shift, and they know the floor without being told.</p>
 
                                     <div class="rating-box">
                                         <a href="#"><i class="icon-star"></i></a>
@@ -1796,9 +1378,9 @@
                                     <img src="{{ asset('images/testimonial/testimonial-v1-img3.jpg') }}" alt="">
                                 </div>
                                 <div class="testimonial-one__single-inner">
-                                    <h2>John D. Alexon</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority
-                                        have suffered alteration in some form.</p>
+                                    <h2>Sandeep Jadhav</h2>
+                                    <h6 style="font-weight:600;margin-bottom:20px">Partner, Jadhav & Associates</h6>
+                                    <p>Called for a deep clean of our office. Yash was on site the same day, quoted a fair price, and finished ahead of schedule.</p>
 
                                     <div class="rating-box">
                                         <a href="#"><i class="icon-star"></i></a>
@@ -1814,392 +1396,12 @@
                             </div>
                             <!--End Testimonial One Single-->
 
-                            <!--Start Testimonial One Single-->
-                            <div class="testimonial-one__single text-center">
-                                <div class="testimonial-one__single-img">
-                                    <img src="{{ asset('images/testimonial/testimonial-v1-img1.jpg') }}" alt="">
-                                </div>
-                                <div class="testimonial-one__single-inner">
-                                    <h2>Savannah Nguyen</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority
-                                        have suffered alteration in some form.</p>
-
-                                    <div class="rating-box">
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                    </div>
-                                </div>
-                                <div class="icon-box">
-                                    <span class="icon-quotation-up"></span>
-                                </div>
-                            </div>
-                            <!--End Testimonial One Single-->
-
-                            <!--Start Testimonial One Single-->
-                            <div class="testimonial-one__single text-center">
-                                <div class="testimonial-one__single-img">
-                                    <img src="{{ asset('images/testimonial/testimonial-v1-img2.jpg') }}" alt="">
-                                </div>
-                                <div class="testimonial-one__single-inner">
-                                    <h2>Dwayne Johnson</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority
-                                        have suffered alteration in some form.</p>
-
-                                    <div class="rating-box">
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                    </div>
-                                </div>
-                                <div class="icon-box">
-                                    <span class="icon-quotation-up"></span>
-                                </div>
-                            </div>
-                            <!--End Testimonial One Single-->
-
-                            <!--Start Testimonial One Single-->
-                            <div class="testimonial-one__single text-center">
-                                <div class="testimonial-one__single-img">
-                                    <img src="{{ asset('images/testimonial/testimonial-v1-img3.jpg') }}" alt="">
-                                </div>
-                                <div class="testimonial-one__single-inner">
-                                    <h2>John D. Alexon</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority
-                                        have suffered alteration in some form.</p>
-
-                                    <div class="rating-box">
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                    </div>
-                                </div>
-                                <div class="icon-box">
-                                    <span class="icon-quotation-up"></span>
-                                </div>
-                            </div>
-                            <!--End Testimonial One Single-->
-
-                            <!--Start Testimonial One Single-->
-                            <div class="testimonial-one__single text-center">
-                                <div class="testimonial-one__single-img">
-                                    <img src="{{ asset('images/testimonial/testimonial-v1-img1.jpg') }}" alt="">
-                                </div>
-                                <div class="testimonial-one__single-inner">
-                                    <h2>Savannah Nguyen</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority
-                                        have suffered alteration in some form.</p>
-
-                                    <div class="rating-box">
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                    </div>
-                                </div>
-                                <div class="icon-box">
-                                    <span class="icon-quotation-up"></span>
-                                </div>
-                            </div>
-                            <!--End Testimonial One Single-->
-
-                            <!--Start Testimonial One Single-->
-                            <div class="testimonial-one__single text-center">
-                                <div class="testimonial-one__single-img">
-                                    <img src="{{ asset('images/testimonial/testimonial-v1-img2.jpg') }}" alt="">
-                                </div>
-                                <div class="testimonial-one__single-inner">
-                                    <h2>Dwayne Johnson</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority
-                                        have suffered alteration in some form.</p>
-
-                                    <div class="rating-box">
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                    </div>
-                                </div>
-                                <div class="icon-box">
-                                    <span class="icon-quotation-up"></span>
-                                </div>
-                            </div>
-                            <!--End Testimonial One Single-->
-
-                            <!--Start Testimonial One Single-->
-                            <div class="testimonial-one__single text-center">
-                                <div class="testimonial-one__single-img">
-                                    <img src="{{ asset('images/testimonial/testimonial-v1-img3.jpg') }}" alt="">
-                                </div>
-                                <div class="testimonial-one__single-inner">
-                                    <h2>John D. Alexon</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority
-                                        have suffered alteration in some form.</p>
-
-                                    <div class="rating-box">
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                    </div>
-                                </div>
-                                <div class="icon-box">
-                                    <span class="icon-quotation-up"></span>
-                                </div>
-                            </div>
-                            <!--End Testimonial One Single-->
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!--End Testimonial One-->
-
-        <!--Start Why Choose One-->
-        <section class="why-choose-one">
-            <div class="why-choose-one__bg"
-                style="background-image: url({{ asset('images/backgrounds/why-choose-v1-bg.jpg') }});"></div>
-            <div class="shape1"></div>
-            <div class="shape2"></div>
-            <div class="shape3 scale"><img src="{{ asset('images/shapes/why-choose-v1-shape1.png') }}" alt=""></div>
-            <div class="shape4 float-bob-x"><img src="{{ asset('images/shapes/why-choose-v1-shape1.png') }}" alt=""></div>
-            <div class="shape5 float-bob-y"><img src="{{ asset('images/shapes/why-choose-v1-shape1.png') }}" alt=""></div>
-            <div class="container">
-                <div class="why-choose-one__inner">
-                    <div class="sec-title sec-title-animation animation-style2">
-                        <div class="sec-title__tagline">
-                            <div class="icon-box">
-                                <span class="icon-household"></span>
-                            </div>
-
-                            <div class="text title-animation">
-                                <h4>Why Choose us?</h4>
-                            </div>
-                        </div>
-                        <h2 class="sec-title__title title-animation">We Will Make Absolutely Any <br> Place Clean, Neat
-                            & Tidy.</h2>
-                    </div>
-
-                    <div class="why-choose-one__tab tab-box">
-                        <ul class="tabs-button-box clearfix">
-                            <li data-tab="#mission" class="tab-btn-item active-btn">
-                                <h3><span class="icon-target"></span> Our Mission</h3>
-                            </li>
-                            <li data-tab="#vision" class="tab-btn-item">
-                                <h3><span class="icon-achievement"></span> Our Vision</h3>
-                            </li>
-                            <li data-tab="#philosophy" class="tab-btn-item">
-                                <h3><span class="icon-cleaning-service"></span> Our Philosophy</h3>
-                            </li>
-                        </ul>
-
-                        <div class="tabs-content tabs-content-box">
-                            <!--Start Single Tab Content-->
-                            <div class="tab tab-active" id="mission">
-                                <div class="why-choose-one__single-tab">
-                                    <div class="why-choose-one__single-tab-inner">
-                                        <div class="row">
-                                            <div class="col-xl-6 col-lg-6">
-                                                <div class="why-choose-one__single-tab-img">
-                                                    <div class="inner">
-                                                        <img src="{{ asset('images/resources/why-choose-v1-img1.jpg') }}"
-                                                            alt="#">
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-xl-6 col-lg-6">
-                                                <div class="why-choose-one__single-tab-content">
-                                                    <h2>Our Two-Part Satisfaction Guarantee!</h2>
-                                                    <p>It is a long established fact that a reader will be distracted by
-                                                        the readable content of a page when looking at its layout. The
-                                                        point
-                                                        of using Lorem Ipsum is that it has a more-or-less normal
-                                                        distribution of letters, as opposed.</p>
-                                                    <div class="btn-box">
-                                                        <a class="thm-btn" href="contact.html">View Terms of Service
-                                                            <i class="icon-next"></i>
-                                                            <span class="hover-btn hover-bx"></span>
-                                                            <span class="hover-btn hover-bx2"></span>
-                                                            <span class="hover-btn hover-bx3"></span>
-                                                            <span class="hover-btn hover-bx4"></span>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--End Single Tab Content-->
-
-                            <!--Start Single Tab Content-->
-                            <div class="tab" id="vision">
-                                <div class="why-choose-one__single-tab">
-                                    <div class="why-choose-one__single-tab-inner">
-                                        <div class="row">
-                                            <div class="col-xl-6 col-lg-6">
-                                                <div class="why-choose-one__single-tab-img">
-                                                    <div class="inner">
-                                                        <img src="{{ asset('images/resources/why-choose-v1-img2.jpg') }}"
-                                                            alt="#">
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-xl-6 col-lg-6">
-                                                <div class="why-choose-one__single-tab-content">
-                                                    <h2>Expert Cleaning Team </h2>
-                                                    <p>It is a long established fact that a reader will be distracted by
-                                                        the readable content of a page when looking at its layout. The
-                                                        point
-                                                        of using Lorem Ipsum is that it has a more-or-less normal
-                                                        distribution of letters, as opposed.</p>
-                                                    <div class="btn-box">
-                                                        <a class="thm-btn" href="contact.html">View Terms of Service
-                                                            <i class="icon-next"></i>
-                                                            <span class="hover-btn hover-bx"></span>
-                                                            <span class="hover-btn hover-bx2"></span>
-                                                            <span class="hover-btn hover-bx3"></span>
-                                                            <span class="hover-btn hover-bx4"></span>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--End Single Tab Content-->
-
-                            <!--Start Single Tab Content-->
-                            <div class="tab" id="philosophy">
-                                <div class="why-choose-one__single-tab">
-                                    <div class="why-choose-one__single-tab-inner">
-                                        <div class="row">
-                                            <div class="col-xl-6 col-lg-6">
-                                                <div class="why-choose-one__single-tab-img">
-                                                    <div class="inner">
-                                                        <img src="{{ asset('images/resources/why-choose-v1-img3.jpg') }}"
-                                                            alt="#">
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-xl-6 col-lg-6">
-                                                <div class="why-choose-one__single-tab-content">
-                                                    <h2>24/7 Online Support </h2>
-                                                    <p>It is a long established fact that a reader will be distracted by
-                                                        the readable content of a page when looking at its layout. The
-                                                        point
-                                                        of using Lorem Ipsum is that it has a more-or-less normal
-                                                        distribution of letters, as opposed.</p>
-                                                    <div class="btn-box">
-                                                        <a class="thm-btn" href="contact.html">View Terms of Service
-                                                            <i class="icon-next"></i>
-                                                            <span class="hover-btn hover-bx"></span>
-                                                            <span class="hover-btn hover-bx2"></span>
-                                                            <span class="hover-btn hover-bx3"></span>
-                                                            <span class="hover-btn hover-bx4"></span>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--End Single Tab Content-->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--End Why Choose One-->
-
-        <!--Start Working Process One-->
-        <section class="working-process-one">
-            <div class="shape2 float-bob-y"><img src="{{ asset('images/shapes/working-process-v1-shape1.png') }}" alt=""></div>
-            <div class="shape3 float-bob-x"><img src="{{ asset('images/shapes/working-process-v1-shape2.png') }}" alt=""></div>
-            <div class="container">
-                <div class="sec-title text-center sec-title-animation animation-style1">
-                    <div class="sec-title__tagline center">
-                        <div class="icon-box">
-                            <span class="icon-household"></span>
-                        </div>
-
-                        <div class="text title-animation">
-                            <h4>How It Works</h4>
-                        </div>
-                    </div>
-                    <h2 class="sec-title__title title-animation">Our Working Process</h2>
-                </div>
-
-                <div class="shape1"></div>
-                <div class="row">
-                    <!--Start Working Process One Single-->
-                    <div class="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <div class="working-process-one__single">
-                            <div class="icon">
-                                <div class="count-box">01</div>
-                                <span class="icon-task-complete"></span>
-                            </div>
-
-                            <div class="content-box text-center">
-                                <h2><a href="#">Make A Plan</a></h2>
-                                <p>It is a long established fact that a reader will be distracted by the readable
-                                    content of a page when looking at its layout. The point of using.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Working Process One Single-->
-
-                    <!--Start Working Process One Single-->
-                    <div class="col-xl-4 col-lg-4 wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1500ms">
-                        <div class="working-process-one__single">
-                            <div class="icon">
-                                <div class="count-box">02</div>
-                                <span class="icon-calendar-1"></span>
-                            </div>
-
-                            <div class="content-box text-center">
-                                <h2><a href="#">Set a Date</a></h2>
-                                <p>It is a long established fact that a reader will be distracted by the readable
-                                    content of a page when looking at its layout. The point of using.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Working Process One Single-->
-
-                    <!--Start Working Process One Single-->
-                    <div class="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
-                        <div class="working-process-one__single">
-                            <div class="icon">
-                                <div class="count-box">03</div>
-                                <span class="icon-household"></span>
-                            </div>
-
-                            <div class="content-box text-center">
-                                <h2><a href="#">Start Cleaning</a></h2>
-                                <p>It is a long established fact that a reader will be distracted by the readable
-                                    content of a page when looking at its layout. The point of using.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Working Process One Single-->
-                </div>
-            </div>
-        </section>
-        <!--End Working Process One-->
 
         <!--Start Brand One-->
         <section class="brand-one">
@@ -2276,177 +1478,6 @@
             </div>
         </section>
         <!--End Brand One-->
-
-        <!--Start Blog One-->
-        <section class="blog-one">
-            <div class="container">
-                <div class="sec-title text-center sec-title-animation animation-style1">
-                    <div class="sec-title__tagline center">
-                        <div class="icon-box">
-                            <span class="icon-household"></span>
-                        </div>
-
-                        <div class="text title-animation">
-                            <h4>Blog & News</h4>
-                        </div>
-                    </div>
-                    <h2 class="sec-title__title title-animation">Get Latest News & Updates</h2>
-                </div>
-
-                <div class="row">
-                    <!--Start Blog One Single-->
-                    <div class="col-xl-4 col-lg-6 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="blog-one__single">
-                            <div class="blog-one__single-img">
-                                <img src="{{ asset('images/blog/blog-v1-img1.jpg') }}" alt="">
-                            </div>
-
-                            <div class="blog-one__single-content">
-                                <div class="date-box">
-                                    <h2>17</h2>
-                                    <p>FEB</p>
-                                </div>
-                                <div class="blog-one__single-content-inner">
-                                    <ul class="meta-box">
-                                        <li>
-                                            <div class="icon">
-                                                <span class="icon-people"></span>
-                                            </div>
-
-                                            <div class="text-box">
-                                                <p><a href="#">By Admin</a></p>
-                                            </div>
-                                        </li>
-
-                                        <li>
-                                            <div class="icon">
-                                                <span class="icon-conversation"></span>
-                                            </div>
-
-                                            <div class="text-box">
-                                                <p><a href="#">2 Comment</a></p>
-                                            </div>
-                                        </li>
-                                    </ul>
-
-                                    <h2><a href="blog-details-right.html">Great Tips to Choose A <br> Professional
-                                            Cleaner</a>
-                                    </h2>
-                                    <p>It is a long established fact that a reader will be distracted by the readable
-                                        content of a page when looking at its layout. The point...</p>
-
-                                    <div class="btn-box">
-                                        <a href="blog-details-right.html">Read More <span class="icon-plus"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Blog One Single-->
-
-                    <!--Start Blog One Single-->
-                    <div class="col-xl-4 col-lg-6 wow fadeInDown" data-wow-delay=".3s">
-                        <div class="blog-one__single">
-                            <div class="blog-one__single-img">
-                                <img src="{{ asset('images/blog/blog-v1-img2.jpg') }}" alt="">
-                            </div>
-
-                            <div class="blog-one__single-content">
-                                <div class="date-box">
-                                    <h2>15</h2>
-                                    <p>FEB</p>
-                                </div>
-                                <div class="blog-one__single-content-inner">
-                                    <ul class="meta-box">
-                                        <li>
-                                            <div class="icon">
-                                                <span class="icon-people"></span>
-                                            </div>
-
-                                            <div class="text-box">
-                                                <p><a href="#">By Admin</a></p>
-                                            </div>
-                                        </li>
-
-                                        <li>
-                                            <div class="icon">
-                                                <span class="icon-conversation"></span>
-                                            </div>
-
-                                            <div class="text-box">
-                                                <p><a href="#">2 Comment</a></p>
-                                            </div>
-                                        </li>
-                                    </ul>
-
-                                    <h2><a href="blog-details-right.html">Floor Cleaning & Washing <br> Use New
-                                            Equipment</a>
-                                    </h2>
-                                    <p>It is a long established fact that a reader will be distracted by the readable
-                                        content of a page when looking at its layout. The point... </p>
-
-                                    <div class="btn-box">
-                                        <a href="blog-details-right.html">Read More <span class="icon-plus"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Blog One Single-->
-
-                    <!--Start Blog One Single-->
-                    <div class="col-xl-4 col-lg-6 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="blog-one__single">
-                            <div class="blog-one__single-img">
-                                <img src="{{ asset('images/blog/blog-v1-img3.jpg') }}" alt="">
-                            </div>
-
-                            <div class="blog-one__single-content">
-                                <div class="date-box">
-                                    <h2>19</h2>
-                                    <p>FEB</p>
-                                </div>
-                                <div class="blog-one__single-content-inner">
-                                    <ul class="meta-box">
-                                        <li>
-                                            <div class="icon">
-                                                <span class="icon-people"></span>
-                                            </div>
-
-                                            <div class="text-box">
-                                                <p><a href="#">By Admin</a></p>
-                                            </div>
-                                        </li>
-
-                                        <li>
-                                            <div class="icon">
-                                                <span class="icon-conversation"></span>
-                                            </div>
-
-                                            <div class="text-box">
-                                                <p><a href="#">2 Comment</a></p>
-                                            </div>
-                                        </li>
-                                    </ul>
-
-                                    <h2><a href="blog-details-right.html">Best Ways to Keep Your <br> House Fresh &
-                                            Clean</a>
-                                    </h2>
-                                    <p>It is a long established fact that a reader will be distracted by the readable
-                                        content of a page when looking at its layout. The point...</p>
-
-                                    <div class="btn-box">
-                                        <a href="blog-details-right.html">Read More <span class="icon-plus"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Blog One Single-->
-                </div>
-            </div>
-        </section>
-        <!--End Blog One-->
 
         <!--Start Cta One -->
         <section class="cta-one">
