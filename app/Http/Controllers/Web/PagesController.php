@@ -25,4 +25,8 @@ class PagesController extends Controller
     public function contactUs(){
         return view('web.contact-us');
     }
+
+    public function faq(){
+        return view('web.faq');
+    }
 }

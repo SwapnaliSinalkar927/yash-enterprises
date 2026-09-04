@@ -26,7 +26,7 @@
                                 <i class="icon-phone-call"></i>
                             </div>
                             <div class="text">
-                                <p><a href="tel:1234567890">+117 875 74885</a></p>
+                                <p><a href="tel:1234567890">+91 992 275 6972</a></p>
                             </div>
                         </li>
 
@@ -35,16 +35,16 @@
                                 <i class="icon-placeholder"></i>
                             </div>
                             <div class="text">
-                                <p>Syracuse, Connecticut- 17A</p>
+                                <p>Ranubaimala, Chakan- 410501</p>
                             </div>
                         </li>
                     </ul>
 
                     <div class="main-header-one__top-right">
                         <div class="header-style1__social-links">
-                            <a href="#"><i class="icon-facebook-app-symbol"></i></a>
+                            <!-- <a href="#"><i class="icon-facebook-app-symbol"></i></a>
                             <a href="#"><i class="icon-twitter-1"></i></a>
-                            <a href="#"><i class="icon-linkedin-big-logo"></i></a>
+                            <a href="#"><i class="icon-linkedin-big-logo"></i></a> -->
                             <a href="#"><i class="icon-instagram"></i></a>
                         </div>
                     </div>

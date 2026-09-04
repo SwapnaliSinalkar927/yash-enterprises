@@ -3,6 +3,9 @@
 @section('title', 'Home')
 
 @section('style')
+<style>
+    .cleaning-gallery { width: 100%; padding: 12px; } .cleaning-gallery-grid { display: grid; width: 100%; height: 1000px; grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(4, 1fr); gap: 12px; } .cleaning-gallery-item { position: relative; overflow: hidden; } .cleaning-gallery-item-inner { position: relative; width: 100%; height: 100%; overflow: hidden; border-radius: 16px; } .cleaning-gallery-item img { position: absolute; inset: 0; width: 100%; height: 100%; display: block; object-fit: cover; } /* ======================================== Desktop Layout ======================================== */ .item-1 { grid-area: 1 / 1 / 3 / 2; } .item-2 { grid-area: 1 / 2 / 2 / 3; } .item-3 { grid-area: 2 / 2 / 4 / 3; } .item-4 { grid-area: 1 / 3 / 3 / 4; } .item-5 { grid-area: 3 / 1 / 4 / 2; } .item-6 { grid-area: 3 / 3 / 5 / 4; } .item-7 { grid-area: 4 / 1 / 5 / 2; } .item-8 { grid-area: 4 / 2 / 5 / 3; } /* ======================================== Tablet 768px - 1024px ======================================== */ @media (max-width: 1024px) { .cleaning-gallery { padding: 10px; } .cleaning-gallery-grid { height: 550px; grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(4, 1fr); gap: 10px; } .item-1 { grid-area: 1 / 1 / 3 / 2; } .item-2 { grid-area: 1 / 2 / 2 / 3; } .item-3 { grid-area: 2 / 2 / 4 / 3; } .item-4 { grid-area: 3 / 1 / 5 / 2; } .item-5 { grid-area: 4 / 2 / 5 / 3; } .item-6 { display: none; } .item-7 { display: none; } .item-8 { display: none; } } /* ======================================== Mobile Below 767px ======================================== */ @media (max-width: 767px) { .cleaning-gallery { padding: 8px; } .cleaning-gallery-grid { display: grid; height: auto; grid-template-columns: 1fr; grid-template-rows: none; gap: 12px; } .cleaning-gallery-item { grid-area: auto !important; display: block; } .cleaning-gallery-item-inner { height: 260px; border-radius: 14px; } .cleaning-gallery-item img { position: absolute; width: 100%; height: 100%; object-fit: cover; } .item-1, .item-2, .item-3, .item-4, .item-5, .item-6, .item-7, .item-8 { display: block; } } /* ======================================== Small Mobile Below 480px ======================================== */ @media (max-width: 480px) { .cleaning-gallery { padding: 6px; } .cleaning-gallery-grid { gap: 10px; } .cleaning-gallery-item-inner { height: 220px; border-radius: 12px; } }
+</style>
 @endsection
 
 @section('content')
@@ -227,7 +230,7 @@
                             </div>
 
                             <div class="about-one__content-btn">
-                                <a class="{{ asset('about-us') }}" href="about-1.html">Read More
+                                <a class="{{ asset('about-us') }}" href="{{ route('about-us') }}">Read More
                                     <i class="icon-next"></i>
                                     <span class="hover-btn hover-bx"></span>
                                     <span class="hover-btn hover-bx2"></span>
@@ -408,201 +411,96 @@
                             <h2 class="sec-title__title title-animation">Keep your vision to our latest <br> projects.
                             </h2>
                         </div>
-
-
-                        <div class="project-one__top-btn">
-                            <a class="thm-btn" href="project-1.html">View All Projects
-                                <i class="icon-next"></i>
-                                <span class="hover-btn hover-bx"></span>
-                                <span class="hover-btn hover-bx2"></span>
-                                <span class="hover-btn hover-bx3"></span>
-                                <span class="hover-btn hover-bx4"></span>
-                            </a>
-                        </div>
                     </div>
                 </div>
             </div>
-            <div class="container-fluid">
-                <div class="project-one__inner">
-                    <div class="project-one__carousel owl-carousel owl-theme thm-dot-style1">
-                        <!--Start Project One Single-->
-                        <div class="project-one__single">
-                            <div class="project-one__single-img">
-                                <div class="inner">
-                                    <img style="height:400px" src="{{ asset('images/project/proj1.webp') }}" alt="#">
-                                </div>
+          
+            <div class="cleaning-gallery">
+                <div class="cleaning-gallery-grid">
 
-                                <div class="project-one__single-content">
-                                    <div class="text-box">
-                                        <h2><a href="projects-details.html">Floor Cleaning</a></h2>
-                                        <p>Los Angeles, USA</p>
-                                    </div>
-
-                                    <div class="icon-box">
-                                        <a class="img-popup" href="{{ asset('images/project/project-v1-img1.jpg') }}"><span
-                                                class="icon-plus"></span></a>
-                                    </div>
-                                </div>
-                            </div>
+                    <!-- Image 1 -->
+                    <div class="cleaning-gallery-item item-1">
+                        <div class="cleaning-gallery-item-inner">
+                            <img
+                                src="{{ asset('images/project/proj1.webp') }}"
+                                alt="Professional cleaning team"
+                            >
                         </div>
-                        <!--End Project One Single-->
-
-                        <!--Start Project One Single-->
-                        <div class="project-one__single">
-                            <div class="project-one__single-img">
-                                <div class="inner">
-                                    <img style="height:400px" src="{{ asset('images/project/proj2.webp') }}" alt="#">
-                                </div>
-
-                                <div class="project-one__single-content">
-                                    <div class="text-box">
-                                        <h2><a href="projects-details.html">Office Cleaning</a></h2>
-                                        <p>Los Angeles, USA</p>
-                                    </div>
-
-                                    <div class="icon-box">
-                                        <a class="img-popup" href="{{ asset('images/project/project-v1-img2.jpg') }}"><span
-                                                class="icon-plus"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--End Project One Single-->
-
-                        <!--Start Project One Single-->
-                        <div class="project-one__single">
-                            <div class="project-one__single-img">
-                                <div class="inner">
-                                    <img style="height:400px" src="{{ asset('images/project/proj3.webp') }}" alt="#">
-                                </div>
-
-                                <div class="project-one__single-content">
-                                    <div class="text-box">
-                                        <h2><a href="projects-details.html">Kitchen Cleaning</a></h2>
-                                        <p>Los Angeles, USA</p>
-                                    </div>
-
-                                    <div class="icon-box">
-                                        <a class="img-popup" href="{{ asset('images/project/project-v1-img3.jpg') }}"><span
-                                                class="icon-plus"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--End Project One Single-->
-
-                        <!--Start Project One Single-->
-                        <div class="project-one__single">
-                            <div class="project-one__single-img">
-                                <div class="inner">
-                                    <img style="height:400px" src="{{ asset('images/project/proj4.webp') }}" alt="#">
-                                </div>
-
-                                <div class="project-one__single-content">
-                                    <div class="text-box">
-                                        <h2><a href="projects-details.html">House Cleaning</a></h2>
-                                        <p>Los Angeles, USA</p>
-                                    </div>
-
-                                    <div class="icon-box">
-                                        <a class="img-popup" href="{{ asset('images/project/project-v1-img4.jpg') }}"><span
-                                                class="icon-plus"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--End Project One Single-->
-
-                        <!--Start Project One Single-->
-                        <div class="project-one__single">
-                            <div class="project-one__single-img">
-                                <div class="inner">
-                                    <img style="height:400px" src="{{ asset('images/project/proj5.webp') }}" alt="#">
-                                </div>
-
-                                <div class="project-one__single-content">
-                                    <div class="text-box">
-                                        <h2><a href="projects-details.html">Window Cleaning</a></h2>
-                                        <p>Los Angeles, USA</p>
-                                    </div>
-
-                                    <div class="icon-box">
-                                        <a class="img-popup" href="{{ asset('images/project/project-v1-img5.jpg') }}"><span
-                                                class="icon-plus"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--End Project One Single-->
-
-                        <!--Start Project One Single-->
-                        <div class="project-one__single">
-                            <div class="project-one__single-img">
-                                <div class="inner">
-                                    <img style="height:400px" src="{{ asset('images/project/proj6.webp') }}" alt="#">
-                                </div>
-
-                                <div class="project-one__single-content">
-                                    <div class="text-box">
-                                        <h2><a href="projects-details.html">Floor Cleaning</a></h2>
-                                        <p>Los Angeles, USA</p>
-                                    </div>
-
-                                    <div class="icon-box">
-                                        <a class="img-popup" href="{{ asset('images/project/project-v1-img1.jpg') }}"><span
-                                                class="icon-plus"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--End Project One Single-->
-
-                        <!--Start Project One Single-->
-                        <div class="project-one__single">
-                            <div class="project-one__single-img">
-                                <div class="inner">
-                                    <img style="height:400px" src="{{ asset('images/project/proj7.webp') }}" alt="#">
-                                </div>
-
-                                <div class="project-one__single-content">
-                                    <div class="text-box">
-                                        <h2><a href="projects-details.html">Office Cleaning</a></h2>
-                                        <p>Los Angeles, USA</p>
-                                    </div>
-
-                                    <div class="icon-box">
-                                        <a class="img-popup" href="{{ asset('images/project/project-v1-img2.jpg') }}"><span
-                                                class="icon-plus"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--End Project One Single-->
-
-                        <!--Start Project One Single-->
-                        <div class="project-one__single">
-                            <div class="project-one__single-img">
-                                <div class="inner">
-                                    <img style="height:400px" src="{{ asset('images/project/proj8.webp') }}" alt="#">
-                                </div>
-
-                                <div class="project-one__single-content">
-                                    <div class="text-box">
-                                        <h2><a href="projects-details.html">Kitchen Cleaning</a></h2>
-                                        <p>Los Angeles, USA</p>
-                                    </div>
-
-                                    <div class="icon-box">
-                                        <a class="img-popup" href="{{ asset('images/project/project-v1-img3.jpg') }}"><span
-                                                class="icon-plus"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--End Project One Single-->
                     </div>
+
+                    <!-- Image 2 -->
+                    <div class="cleaning-gallery-item item-2">
+                        <div class="cleaning-gallery-item-inner">
+                            <img
+                                src="{{ asset('images/project/proj2.webp') }}"
+                                alt="Cleaning crew"
+                            >
+                        </div>
+                    </div>
+
+                    <!-- Image 3 -->
+                    <div class="cleaning-gallery-item item-3">
+                        <div class="cleaning-gallery-item-inner">
+                            <img
+                                src="{{ asset('images/project/proj4.webp') }}"
+                                alt="Floor cleaning"
+                            >
+                        </div>
+                    </div>
+
+                    <!-- Image 4 -->
+                    <div class="cleaning-gallery-item item-4">
+                        <div class="cleaning-gallery-item-inner">
+                            <img
+                                src="{{ asset('images/project/proj3.webp') }}"
+                                alt="Cleaning staff"
+                            >
+                        </div>
+                    </div>
+
+                    <!-- Image 5 -->
+                    <div class="cleaning-gallery-item item-5">
+                        <div class="cleaning-gallery-item-inner">
+                            <img
+                                src="{{ asset('images/project/proj5.webp') }}"
+                                alt="Cleaning equipment"
+                            >
+                        </div>
+                    </div>
+
+                    <!-- Image 6 -->
+                    <div class="cleaning-gallery-item item-6">
+                        <div class="cleaning-gallery-item-inner">
+                            <img
+                                src="{{ asset('images/project/proj8.webp') }}"
+                                alt="Housekeeping equipment"
+                            >
+                        </div>
+                    </div>
+
+                    <!-- Image 7 -->
+                    <div class="cleaning-gallery-item item-7">
+                        <div class="cleaning-gallery-item-inner">
+                            <img
+                                src="{{ asset('images/project/proj6.webp') }}"
+                                alt="Cleaning team"
+                            >
+                        </div>
+                    </div>
+
+                    <!-- Image 8 -->
+                    <div class="cleaning-gallery-item item-8">
+                        <div class="cleaning-gallery-item-inner">
+                            <img
+                                src="{{ asset('images/project/proj7.webp') }}"
+                                alt="Outdoor cleaning"
+                            >
+                        </div>
+                    </div>
+
                 </div>
             </div>
+
         </section>
         <!--End Project One-->
 
@@ -611,7 +509,7 @@
             <div class="shape1 float-bob-x"><img src="{{ asset('images/shapes/video-v1-shape1.png') }}" alt=""></div>
             <div class="shape2 float-bob-x"><img src="{{ asset('images/shapes/video-v1-shape2.png') }}" alt=""></div>
             <div class="container">
-                <div class="video-one__inner">
+                <!-- <div class="video-one__inner">
                     <div class="video-one__bg jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
                         style="background-image: url({{ asset('images/backgrounds/video-v1-bg.jpg') }});"></div>
                     <div class="video-one__inner-box">
@@ -627,7 +525,7 @@
                             <span class="border-animation border-3"></span>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </section>
         <!--End Video One-->
@@ -672,7 +570,7 @@
                                     </div>
                                     <p>Person running it
 
-</p>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -724,447 +622,6 @@
             </div>
         </section>
         <!--End Counter One-->
-
-        <!--Start Team One-->
-        <!-- <section class="team-one">
-            <div class="container">
-                <div class="sec-title text-center sec-title-animation animation-style1">
-                    <div class="sec-title__tagline center">
-                        <div class="icon-box">
-                            <span class="icon-household"></span>
-                        </div>
-
-                        <div class="text title-animation">
-                            <h4>We’ve Awesome Team Members</h4>
-                        </div>
-                    </div>
-                    <h2 class="sec-title__title title-animation">Meet Our Experienced & <br>
-                        Professional Team</h2>
-                </div>
-
-                <div class="team-one__carousel owl-carousel owl-theme thm-dot-style1">
-
-                    
-                    <div class="team-one__single">
-                        <div class="team-one__single-inner">
-                            <div class="team-one__single-img">
-                                <img src="{{ asset('images/team/team-v1-img1.jpg') }}" alt="">
-                            </div>
-
-                            <div class="team-one__single-content">
-                                <div class="img-box">
-                                    <img src="{{ asset('images/team/team-v1-img5.jpg') }}" alt="#">
-                                </div>
-
-                                <div class="text-box">
-                                    <h2><a href="team-details.html">Robert Michale</a></h2>
-                                    <p>Window Cleaner</p>
-                                </div>
-
-                                <div class="social-links">
-                                    <a href="#"><span class="icon-facebook-app-symbol"></span></a>
-                                    <a href="#"><span class="icon-twitter-1"></span></a>
-                                    <a href="#"><span class="icon-instagram"></span></a>
-                                    <a href="#"><span class="icon-pinterest"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                  
-                    <div class="team-one__single">
-                        <div class="team-one__single-inner">
-                            <div class="team-one__single-img">
-                                <img src="{{ asset('images/team/team-v1-img2.jpg') }}" alt="">
-                            </div>
-
-                            <div class="team-one__single-content">
-                                <div class="img-box">
-                                    <img src="{{ asset('images/team/team-v1-img6.jpg') }}" alt="#">
-                                </div>
-
-                                <div class="text-box">
-                                    <h2><a href="team-details.html">Mike Hussy</a></h2>
-                                    <p>Window Cleaner</p>
-                                </div>
-
-                                <div class="social-links">
-                                    <a href="#"><span class="icon-facebook-app-symbol"></span></a>
-                                    <a href="#"><span class="icon-twitter-1"></span></a>
-                                    <a href="#"><span class="icon-instagram"></span></a>
-                                    <a href="#"><span class="icon-pinterest"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                  
-                    <div class="team-one__single">
-                        <div class="team-one__single-inner">
-                            <div class="team-one__single-img">
-                                <img src="{{ asset('images/team/team-v1-img3.jpg') }}" alt="">
-                            </div>
-
-                            <div class="team-one__single-content">
-                                <div class="img-box">
-                                    <img src="{{ asset('images/team/team-v1-img7.jpg') }}" alt="#">
-                                </div>
-
-                                <div class="text-box">
-                                    <h2><a href="team-details.html">Robert Mike</a></h2>
-                                    <p>Window Cleaner</p>
-                                </div>
-
-                                <div class="social-links">
-                                    <a href="#"><span class="icon-facebook-app-symbol"></span></a>
-                                    <a href="#"><span class="icon-twitter-1"></span></a>
-                                    <a href="#"><span class="icon-instagram"></span></a>
-                                    <a href="#"><span class="icon-pinterest"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                   
-                    <div class="team-one__single">
-                        <div class="team-one__single-inner">
-                            <div class="team-one__single-img">
-                                <img src="{{ asset('images/team/team-v1-img4.jpg') }}" alt="">
-                            </div>
-
-                            <div class="team-one__single-content">
-                                <div class="img-box">
-                                    <img src="{{ asset('images/team/team-v1-img8.jpg') }}" alt="#">
-                                </div>
-
-                                <div class="text-box">
-                                    <h2><a href="team-details.html">Michale Hussy</a></h2>
-                                    <p>Window Cleaner</p>
-                                </div>
-
-                                <div class="social-links">
-                                    <a href="#"><span class="icon-facebook-app-symbol"></span></a>
-                                    <a href="#"><span class="icon-twitter-1"></span></a>
-                                    <a href="#"><span class="icon-instagram"></span></a>
-                                    <a href="#"><span class="icon-pinterest"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                  
-                    <div class="team-one__single">
-                        <div class="team-one__single-inner">
-                            <div class="team-one__single-img">
-                                <img src="{{ asset('images/team/team-v1-img1.jpg') }}" alt="">
-                            </div>
-
-                            <div class="team-one__single-content">
-                                <div class="img-box">
-                                    <img src="{{ asset('images/team/team-v1-img5.jpg') }}" alt="#">
-                                </div>
-
-                                <div class="text-box">
-                                    <h2><a href="team-details.html">Robert Michale</a></h2>
-                                    <p>Window Cleaner</p>
-                                </div>
-
-                                <div class="social-links">
-                                    <a href="#"><span class="icon-facebook-app-symbol"></span></a>
-                                    <a href="#"><span class="icon-twitter-1"></span></a>
-                                    <a href="#"><span class="icon-instagram"></span></a>
-                                    <a href="#"><span class="icon-pinterest"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                  
-                    <div class="team-one__single">
-                        <div class="team-one__single-inner">
-                            <div class="team-one__single-img">
-                                <img src="{{ asset('images/team/team-v1-img2.jpg') }}" alt="">
-                            </div>
-
-                            <div class="team-one__single-content">
-                                <div class="img-box">
-                                    <img src="{{ asset('images/team/team-v1-img6.jpg') }}" alt="#">
-                                </div>
-
-                                <div class="text-box">
-                                    <h2><a href="team-details.html">Mike Hussy</a></h2>
-                                    <p>Window Cleaner</p>
-                                </div>
-
-                                <div class="social-links">
-                                    <a href="#"><span class="icon-facebook-app-symbol"></span></a>
-                                    <a href="#"><span class="icon-twitter-1"></span></a>
-                                    <a href="#"><span class="icon-instagram"></span></a>
-                                    <a href="#"><span class="icon-pinterest"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                 
-                    <div class="team-one__single">
-                        <div class="team-one__single-inner">
-                            <div class="team-one__single-img">
-                                <img src="{{ asset('images/team/team-v1-img3.jpg') }}" alt="">
-                            </div>
-
-                            <div class="team-one__single-content">
-                                <div class="img-box">
-                                    <img src="{{ asset('images/team/team-v1-img7.jpg') }}" alt="#">
-                                </div>
-
-                                <div class="text-box">
-                                    <h2><a href="team-details.html">Robert Mike</a></h2>
-                                    <p>Window Cleaner</p>
-                                </div>
-
-                                <div class="social-links">
-                                    <a href="#"><span class="icon-facebook-app-symbol"></span></a>
-                                    <a href="#"><span class="icon-twitter-1"></span></a>
-                                    <a href="#"><span class="icon-instagram"></span></a>
-                                    <a href="#"><span class="icon-pinterest"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                   
-                    <div class="team-one__single">
-                        <div class="team-one__single-inner">
-                            <div class="team-one__single-img">
-                                <img src="{{ asset('images/team/team-v1-img4.jpg') }}" alt="">
-                            </div>
-
-                            <div class="team-one__single-content">
-                                <div class="img-box">
-                                    <img src="{{ asset('images/team/team-v1-img8.jpg') }}" alt="#">
-                                </div>
-
-                                <div class="text-box">
-                                    <h2><a href="team-details.html">Michale Hussy</a></h2>
-                                    <p>Window Cleaner</p>
-                                </div>
-
-                                <div class="social-links">
-                                    <a href="#"><span class="icon-facebook-app-symbol"></span></a>
-                                    <a href="#"><span class="icon-twitter-1"></span></a>
-                                    <a href="#"><span class="icon-instagram"></span></a>
-                                    <a href="#"><span class="icon-pinterest"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                  
-                    <div class="team-one__single">
-                        <div class="team-one__single-inner">
-                            <div class="team-one__single-img">
-                                <img src="{{ asset('images/team/team-v1-img1.jpg') }}" alt="">
-                            </div>
-
-                            <div class="team-one__single-content">
-                                <div class="img-box">
-                                    <img src="{{ asset('images/team/team-v1-img5.jpg') }}" alt="#">
-                                </div>
-
-                                <div class="text-box">
-                                    <h2><a href="team-details.html">Robert Michale</a></h2>
-                                    <p>Window Cleaner</p>
-                                </div>
-
-                                <div class="social-links">
-                                    <a href="#"><span class="icon-facebook-app-symbol"></span></a>
-                                    <a href="#"><span class="icon-twitter-1"></span></a>
-                                    <a href="#"><span class="icon-instagram"></span></a>
-                                    <a href="#"><span class="icon-pinterest"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                   
-                    <div class="team-one__single">
-                        <div class="team-one__single-inner">
-                            <div class="team-one__single-img">
-                                <img src="{{ asset('images/team/team-v1-img2.jpg') }}" alt="">
-                            </div>
-
-                            <div class="team-one__single-content">
-                                <div class="img-box">
-                                    <img src="{{ asset('images/team/team-v1-img6.jpg') }}" alt="#">
-                                </div>
-
-                                <div class="text-box">
-                                    <h2><a href="team-details.html">Mike Hussy</a></h2>
-                                    <p>Window Cleaner</p>
-                                </div>
-
-                                <div class="social-links">
-                                    <a href="#"><span class="icon-facebook-app-symbol"></span></a>
-                                    <a href="#"><span class="icon-twitter-1"></span></a>
-                                    <a href="#"><span class="icon-instagram"></span></a>
-                                    <a href="#"><span class="icon-pinterest"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                   
-                    <div class="team-one__single">
-                        <div class="team-one__single-inner">
-                            <div class="team-one__single-img">
-                                <img src="{{ asset('images/team/team-v1-img3.jpg') }}" alt="">
-                            </div>
-
-                            <div class="team-one__single-content">
-                                <div class="img-box">
-                                    <img src="{{ asset('images/team/team-v1-img7.jpg') }}" alt="#">
-                                </div>
-
-                                <div class="text-box">
-                                    <h2><a href="team-details.html">Robert Mike</a></h2>
-                                    <p>Window Cleaner</p>
-                                </div>
-
-                                <div class="social-links">
-                                    <a href="#"><span class="icon-facebook-app-symbol"></span></a>
-                                    <a href="#"><span class="icon-twitter-1"></span></a>
-                                    <a href="#"><span class="icon-instagram"></span></a>
-                                    <a href="#"><span class="icon-pinterest"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                  
-                    <div class="team-one__single">
-                        <div class="team-one__single-inner">
-                            <div class="team-one__single-img">
-                                <img src="{{ asset('images/team/team-v1-img4.jpg') }}" alt="">
-                            </div>
-
-                            <div class="team-one__single-content">
-                                <div class="img-box">
-                                    <img src="{{ asset('images/team/team-v1-img8.jpg') }}" alt="#">
-                                </div>
-
-                                <div class="text-box">
-                                    <h2><a href="team-details.html">Michale Hussy</a></h2>
-                                    <p>Window Cleaner</p>
-                                </div>
-
-                                <div class="social-links">
-                                    <a href="#"><span class="icon-facebook-app-symbol"></span></a>
-                                    <a href="#"><span class="icon-twitter-1"></span></a>
-                                    <a href="#"><span class="icon-instagram"></span></a>
-                                    <a href="#"><span class="icon-pinterest"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                   
-                    <div class="team-one__single">
-                        <div class="team-one__single-inner">
-                            <div class="team-one__single-img">
-                                <img src="{{ asset('images/team/team-v1-img1.jpg') }}" alt="">
-                            </div>
-
-                            <div class="team-one__single-content">
-                                <div class="img-box">
-                                    <img src="{{ asset('images/team/team-v1-img5.jpg') }}" alt="#">
-                                </div>
-
-                                <div class="text-box">
-                                    <h2><a href="team-details.html">Robert Michale</a></h2>
-                                    <p>Window Cleaner</p>
-                                </div>
-
-                                <div class="social-links">
-                                    <a href="#"><span class="icon-facebook-app-symbol"></span></a>
-                                    <a href="#"><span class="icon-twitter-1"></span></a>
-                                    <a href="#"><span class="icon-instagram"></span></a>
-                                    <a href="#"><span class="icon-pinterest"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                   
-                    <div class="team-one__single">
-                        <div class="team-one__single-inner">
-                            <div class="team-one__single-img">
-                                <img src="{{ asset('images/team/team-v1-img2.jpg') }}" alt="">
-                            </div>
-
-                            <div class="team-one__single-content">
-                                <div class="img-box">
-                                    <img src="{{ asset('images/team/team-v1-img6.jpg') }}" alt="#">
-                                </div>
-
-                                <div class="text-box">
-                                    <h2><a href="team-details.html">Mike Hussy</a></h2>
-                                    <p>Window Cleaner</p>
-                                </div>
-
-                                <div class="social-links">
-                                    <a href="#"><span class="icon-facebook-app-symbol"></span></a>
-                                    <a href="#"><span class="icon-twitter-1"></span></a>
-                                    <a href="#"><span class="icon-instagram"></span></a>
-                                    <a href="#"><span class="icon-pinterest"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                  
-                    <div class="team-one__single">
-                        <div class="team-one__single-inner">
-                            <div class="team-one__single-img">
-                                <img src="{{ asset('images/team/team-v1-img3.jpg') }}" alt="">
-                            </div>
-
-                            <div class="team-one__single-content">
-                                <div class="img-box">
-                                    <img src="{{ asset('images/team/team-v1-img7.jpg') }}" alt="#">
-                                </div>
-
-                                <div class="text-box">
-                                    <h2><a href="team-details.html">Robert Mike</a></h2>
-                                    <p>Window Cleaner</p>
-                                </div>
-
-                                <div class="social-links">
-                                    <a href="#"><span class="icon-facebook-app-symbol"></span></a>
-                                    <a href="#"><span class="icon-twitter-1"></span></a>
-                                    <a href="#"><span class="icon-instagram"></span></a>
-                                    <a href="#"><span class="icon-pinterest"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                  
-                    <div class="team-one__single">
-                        <div class="team-one__single-inner">
-                            <div class="team-one__single-img">
-                                <img src="{{ asset('images/team/team-v1-img4.jpg') }}" alt="">
-                            </div>
-
-                            <div class="team-one__single-content">
-                                <div class="img-box">
-                                    <img src="{{ asset('images/team/team-v1-img8.jpg') }}" alt="#">
-                                </div>
-
-                                <div class="text-box">
-                                    <h2><a href="team-details.html">Michale Hussy</a></h2>
-                                    <p>Window Cleaner</p>
-                                </div>
-
-                                <div class="social-links">
-                                    <a href="#"><span class="icon-facebook-app-symbol"></span></a>
-                                    <a href="#"><span class="icon-twitter-1"></span></a>
-                                    <a href="#"><span class="icon-instagram"></span></a>
-                                    <a href="#"><span class="icon-pinterest"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                   
-                </div>
-            </div>
-        </section> -->
-        <!--End Team One-->
 
         <!--Start Contact One -->
         <section class="contact-one">
@@ -1267,8 +724,8 @@
                                         </div>
 
                                         <div class="text-box">
-                                            <p>3060 Commercial Street Road <br>
-                                                Fratton, Australia</p>
+                                            <p>Near Maruti Mandir, Ranubaimala, Chakan - 410501 <br>
+                                                Tal - Khed, Dist - Pune</p>
                                         </div>
                                     </li>
 
@@ -1278,8 +735,7 @@
                                         </div>
 
                                         <div class="text-box">
-                                            <p><a href="tel:1234567890">+817 895 74555</a></p>
-                                            <p><a href="tel:1234567890">+817 895 74555</a></p>
+                                            <p><a href="tel:9922756972">+91 992 275 6972</a></p>
                                         </div>
                                     </li>
 
@@ -1289,8 +745,7 @@
                                         </div>
 
                                         <div class="text-box">
-                                            <p><a href="mailto:yourmail@email.com">help24/7@cleanin.com</a></p>
-                                            <p><a href="mailto:yourmail@email.com">help24/7@cleanin.com</a></p>
+                                            <p><a href="mailto:yashenterprises5556@gmail.com">yashenterprises5556@gmail.com</a></p>
                                         </div>
                                     </li>
                                 </ul>
@@ -1326,9 +781,6 @@
 
                             <!--Start Testimonial One Single-->
                             <div class="testimonial-one__single text-center">
-                                <div class="testimonial-one__single-img">
-                                    <img src="{{ asset('images/testimonial/testimonial-v1-img1.jpg') }}" alt="">
-                                </div>
                                 <div class="testimonial-one__single-inner">
                                     <h2>Rajesh Patil</h2>
                                     <h6 style="font-weight:600;margin-bottom:20px">Chairman, Green Valley Society</h6>
@@ -1350,9 +802,6 @@
 
                             <!--Start Testimonial One Single-->
                             <div class="testimonial-one__single text-center">
-                                <div class="testimonial-one__single-img">
-                                    <img src="{{ asset('images/testimonial/testimonial-v1-img2.jpg') }}" alt="">
-                                </div>
                                 <div class="testimonial-one__single-inner">
                                     <h2>Kavita Shinde</h2>
                                     <h6 style="font-weight:600;margin-bottom:20px">Operations Manager, Apex Industries</h6>
@@ -1374,9 +823,6 @@
 
                             <!--Start Testimonial One Single-->
                             <div class="testimonial-one__single text-center">
-                                <div class="testimonial-one__single-img">
-                                    <img src="{{ asset('images/testimonial/testimonial-v1-img3.jpg') }}" alt="">
-                                </div>
                                 <div class="testimonial-one__single-inner">
                                     <h2>Sandeep Jadhav</h2>
                                     <h6 style="font-weight:600;margin-bottom:20px">Partner, Jadhav & Associates</h6>
@@ -1404,11 +850,11 @@
         <!--End Testimonial One-->
 
         <!--Start Brand One-->
-        <section class="brand-one">
+        <!-- <section class="brand-one">
             <div class="container">
                 <div class="brand-one__inner">
                     <div class="brand-one__carousel owl-carousel owl-theme">
-                        <!--Start Brand One Single-->
+                        
                         <div class="brand-one__single">
                             <div class="brand-one__single-inner">
                                 <a href="#">
@@ -1417,9 +863,9 @@
                                 </a>
                             </div>
                         </div>
-                        <!--End Brand One Single-->
+                       
 
-                        <!--Start Brand One Single-->
+                       
                         <div class="brand-one__single">
                             <div class="brand-one__single-inner">
                                 <a href="#">
@@ -1428,9 +874,7 @@
                                 </a>
                             </div>
                         </div>
-                        <!--End Brand One Single-->
-
-                        <!--Start Brand One Single-->
+                        
                         <div class="brand-one__single">
                             <div class="brand-one__single-inner">
                                 <a href="#">
@@ -1439,9 +883,7 @@
                                 </a>
                             </div>
                         </div>
-                        <!--End Brand One Single-->
-
-                        <!--Start Brand One Single-->
+                     
                         <div class="brand-one__single">
                             <div class="brand-one__single-inner">
                                 <a href="#">
@@ -1450,9 +892,7 @@
                                 </a>
                             </div>
                         </div>
-                        <!--End Brand One Single-->
-
-                        <!--Start Brand One Single-->
+                       
                         <div class="brand-one__single">
                             <div class="brand-one__single-inner">
                                 <a href="#">
@@ -1461,9 +901,7 @@
                                 </a>
                             </div>
                         </div>
-                        <!--End Brand One Single-->
-
-                        <!--Start Brand One Single-->
+                       
                         <div class="brand-one__single">
                             <div class="brand-one__single-inner">
                                 <a href="#">
@@ -1472,40 +910,12 @@
                                 </a>
                             </div>
                         </div>
-                        <!--End Brand One Single-->
+                       
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!--End Brand One-->
-
-        <!--Start Cta One -->
-        <section class="cta-one">
-            <div class="shape1"></div>
-            <div class="cta-one__bg" style="background-image: url({{ asset('images/backgrounds/cta-v1-bg.jpg') }});">
-            </div>
-            <div class="container clearfix">
-                <div class="cta-one__inner">
-                    <div class="cta-one__content">
-                        <div class="text-box">
-                            <p>Quality Services provider</p>
-                            <h2>Need Our services?</h2>
-                        </div>
-
-                        <div class="btn-box">
-                            <a class="thm-btn" href="contact-1.html">get free quote
-                                <i class="icon-next"></i>
-                                <span class="hover-btn hover-bx"></span>
-                                <span class="hover-btn hover-bx2"></span>
-                                <span class="hover-btn hover-bx3"></span>
-                                <span class="hover-btn hover-bx4"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--End Cta One -->
 @endsection
 
 @section('script')

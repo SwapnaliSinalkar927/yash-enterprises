@@ -155,5 +155,6 @@ Route::get('index', [WebPagesController::class, 'index'])->name('index');
 Route::get('about-us', [WebPagesController::class, 'aboutUs'])->name('about-us');
 Route::get('services', [WebPagesController::class, 'services'])->name('services');
 Route::get('contact-us', [WebPagesController::class, 'contactUs'])->name('contact-us');
+Route::get('faq', [WebPagesController::class, 'faq'])->name('faq');
 
 

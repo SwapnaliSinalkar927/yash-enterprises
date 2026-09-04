@@ -41,22 +41,16 @@
                                         <h4>Contact US</h4>
                                     </div>
                                 </div>
-                                <h2 class="sec-title__title title-animation">Get in Touch And We’ll
-                                    Help Your Business</h2>
+                                <h2 class="sec-title__title title-animation">Professional Cleaning,
+                                    We’re Here to Help</h2>
                             </div>
 
                             <div class="contact-page--two__content-text1">
-                                <p>It is a long established fact that a reader will be distracted by the readable
-                                    content of a page when looking at its layout. The point of using Lorem Ipsum is that
-                                    it has a more-or-less normal distribution of letters, as opposed to using 'Content
-                                    here.</p>
+                                <p>Looking for reliable and professional cleaning services? Our team is ready to help with solutions tailored to your needs. Get in touch with us today to discuss your requirements and discover how we can make your home or business cleaner, healthier, and more welcoming.</p>
                             </div>
 
                             <div class="social-links">
-                                <a href="#"><span class="icon-facebook-app-symbol"></span></a>
-                                <a href="#"><span class="icon-twitter-1"></span></a>
                                 <a href="#"><span class="icon-instagram"></span></a>
-                                <a href="#"><span class="icon-pinterest"></span></a>
                             </div>
                         </div>
                     </div>
@@ -139,7 +133,7 @@
                                     </div>
                                     <div class="content">
                                         <h2>Location</h2>
-                                        <p>280 Granite Run Drive <br> SuiteHobert, LA 90010, USA.</p>
+                                        <p>Ranubaimala, <br>Chakan - 410501</p>
                                     </div>
                                 </li>
 
@@ -149,7 +143,7 @@
                                     </div>
                                     <div class="content">
                                         <h2>Working Hours</h2>
-                                        <p>Wednesday - Sunday <br> 7:00 AM - 5:00 PM</p>
+                                        <p>Monday - Sunday <br> 7:00 AM - 5:00 PM</p>
                                     </div>
                                 </li>
 
@@ -160,8 +154,7 @@
                                     <div class="content">
                                         <h2>Email</h2>
                                         <p>
-                                            <a href="mailto:support@cleanin.com">support@cleanin.com</a> <br>
-                                            <a href="mailto:support@cleanin.com">support@cleanin.com</a>
+                                            <a href="mailto:yashenterprises5556@gmail.com">yashenterprises5556@gmail.com</a>
                                         </p>
                                     </div>
                                 </li>
@@ -173,8 +166,7 @@
                                     <div class="content">
                                         <h2>Phones</h2>
                                         <p>
-                                            <a href="tel:880123456789">+880 123 456 789</a> <br>
-                                            <a href="tel:880123456789">+880 123 456 789</a>
+                                            <a href="tel:9922756972">+91 992 275 6972</a>
                                         </p>
                                     </div>
                                 </li>
@@ -195,110 +187,6 @@
             </iframe>
         </section>
         <!--End Google Map Two-->
-
-        <!--Start Brand One-->
-        <section class="brand-one brand-one--two about">
-            <div class="container">
-                <div class="brand-one__inner">
-                    <div class="brand-one__carousel owl-carousel owl-theme">
-                        <!--Start Brand One Single-->
-                        <div class="brand-one__single">
-                            <div class="brand-one__single-inner">
-                                <a href="#">
-                                    <img src="assets/images/brand/brand-1-1.png" alt="">
-                                    <img src="assets/images/brand/brand-1-2.png" alt="">
-                                </a>
-                            </div>
-                        </div>
-                        <!--End Brand One Single-->
-
-                        <!--Start Brand One Single-->
-                        <div class="brand-one__single">
-                            <div class="brand-one__single-inner">
-                                <a href="#">
-                                    <img src="assets/images/brand/brand-1-1.png" alt="">
-                                    <img src="assets/images/brand/brand-1-2.png" alt="">
-                                </a>
-                            </div>
-                        </div>
-                        <!--End Brand One Single-->
-
-                        <!--Start Brand One Single-->
-                        <div class="brand-one__single">
-                            <div class="brand-one__single-inner">
-                                <a href="#">
-                                    <img src="assets/images/brand/brand-1-1.png" alt="">
-                                    <img src="assets/images/brand/brand-1-2.png" alt="">
-                                </a>
-                            </div>
-                        </div>
-                        <!--End Brand One Single-->
-
-                        <!--Start Brand One Single-->
-                        <div class="brand-one__single">
-                            <div class="brand-one__single-inner">
-                                <a href="#">
-                                    <img src="assets/images/brand/brand-1-1.png" alt="">
-                                    <img src="assets/images/brand/brand-1-2.png" alt="">
-                                </a>
-                            </div>
-                        </div>
-                        <!--End Brand One Single-->
-
-                        <!--Start Brand One Single-->
-                        <div class="brand-one__single">
-                            <div class="brand-one__single-inner">
-                                <a href="#">
-                                    <img src="assets/images/brand/brand-1-1.png" alt="">
-                                    <img src="assets/images/brand/brand-1-2.png" alt="">
-                                </a>
-                            </div>
-                        </div>
-                        <!--End Brand One Single-->
-
-                        <!--Start Brand One Single-->
-                        <div class="brand-one__single">
-                            <div class="brand-one__single-inner">
-                                <a href="#">
-                                    <img src="assets/images/brand/brand-1-1.png" alt="">
-                                    <img src="assets/images/brand/brand-1-2.png" alt="">
-                                </a>
-                            </div>
-                        </div>
-                        <!--End Brand One Single-->
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--End Brand One-->
-
-        <!--Start Cta One -->
-        <section class="cta-one">
-            <div class="shape1"></div>
-            <div class="cta-one__bg" style="background-image: url(assets/images/backgrounds/cta-v1-bg.jpg);">
-            </div>
-            <div class="container clearfix">
-                <div class="cta-one__inner">
-                    <div class="cta-one__content">
-                        <div class="text-box">
-                            <p>Quality Services provider</p>
-                            <h2>Need Our services?</h2>
-                        </div>
-
-                        <div class="btn-box">
-                            <a class="thm-btn" href="contact-1.html">get free quote
-                                <i class="icon-next"></i>
-                                <span class="hover-btn hover-bx"></span>
-                                <span class="hover-btn hover-bx2"></span>
-                                <span class="hover-btn hover-bx3"></span>
-                                <span class="hover-btn hover-bx4"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--End Cta One -->
 @endsection
 
 @section('script')

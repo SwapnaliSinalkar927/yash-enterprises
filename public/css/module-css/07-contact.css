@@ -247,7 +247,7 @@ Contact One
     height: 30px;
     background: rgba(var(--cleanin-white-rgb), 0.25);
     border-radius: 6px;
-    top: 6px;
+    /* top: 6px; */
 }
 
 .contact-one__contact-info-list-item .icon-box span {

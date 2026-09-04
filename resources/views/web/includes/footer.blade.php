@@ -14,15 +14,16 @@
                                 </div>
 
                                 <div class="footer-widget__about-text">
-                                    <p>We use natural and eco-friendly cleaning products and have a customer
-                                        satisfaction guarantee.</p>
+                                    <p>Professional cleaning with care for the environment.
+                                        Our products are carefully selected to provide a safe and effective clean.
+                                        </p>
                                 </div>
 
                                 <div class="footer-widget__about-social-links">
                                     <ul>
-                                        <li><a href="#"><span class="icon-facebook-app-symbol"></span></a></li>
+                                        <!-- <li><a href="#"><span class="icon-facebook-app-symbol"></span></a></li>
                                         <li><a href="#"><span class="icon-twitter-1"></span></a></li>
-                                        <li><a href="#"><span class="icon-linkedin-big-logo"></span></a></li>
+                                        <li><a href="#"><span class="icon-linkedin-big-logo"></span></a></li> -->
                                         <li><a href="#"><span class="icon-instagram"></span></a></li>
                                     </ul>
                                 </div>
@@ -33,30 +34,34 @@
                         <div class="col-xl-3 col-lg-6 col-md-6  wow fadeInUp" data-wow-delay=".1s">
                             <div class="footer-widget__single footer-widget__services">
                                 <div class="title-box">
-                                    <h2>Services</h2>
+                                    <h2>Links</h2>
                                     <div class="line"></div>
                                 </div>
 
                                 <ul class="footer-widget__services-list">
-                                    <li><a href="house-cleaning.html"><span class="icon-right-chevron"></span> House
-                                            Cleaning</a>
+                                    <li><a href="{{ asset('about-us') }}"><span class="icon-right-chevron"></span>About Us</a>
                                     </li>
-                                    <li><a href="window-cleaning.html"><span class="icon-chevron"></span> Window
-                                            Cleaning</a></li>
-                                    <li><a href="house-cleaning.html"><span class="icon-right-chevron"></span> Room
-                                            Cleaning</a>
+                                    <li><a href="{{ asset('services') }}"><span class="icon-chevron"></span>Services</a></li>
+                                    <li><a href="{{ asset('contact-us') }}"><span class="icon-right-chevron"></span>
+                                           Contact Us</a>
                                     </li>
-                                    <li><a href="residential-cleaning.html"><span class="icon-right-chevron"></span>
-                                            Kitchen
-                                            Cleaning</a>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-6 col-md-6  wow fadeInUp" data-wow-delay=".1s">
+                            <div class="footer-widget__single footer-widget__services">
+                                <div class="title-box">
+                                    <h2>Quick Links</h2>
+                                    <div class="line"></div>
+                                </div>
+
+                                <ul class="footer-widget__services-list">
+                                    <li><a href="{{ asset('faq') }}"><span class="icon-right-chevron"></span>FAQ</a>
                                     </li>
-                                    <li><a href="residential-cleaning.html"><span class="icon-right-chevron"></span>
-                                            Toilet
-                                            Cleaning</a>
-                                    </li>
-                                    <li><a href="commercial-cleaning.html"><span class="icon-right-chevron"></span>
-                                            Outdoor
-                                            Cleaning</a>
+                                    <li><a href=""><span class="icon-chevron"></span>Term & Conditions</a></li>
+                                    <li><a href=""><span class="icon-right-chevron"></span>
+                                           Privacy Policies</a>
                                     </li>
                                 </ul>
                             </div>
@@ -76,8 +81,8 @@
                                         </div>
 
                                         <div class="text-box">
-                                            <p>3060 Commercial Street Road <br>
-                                                Fratton, Australia</p>
+                                             <p>Near Maruti Mandir, Ranubaimala, Chakan - 410501 <br>
+                                                Tal - Khed, Dist - Pune</p>
                                         </div>
                                     </li>
 
@@ -87,8 +92,7 @@
                                         </div>
 
                                         <div class="text-box">
-                                            <p><a href="tel:1234567890">+817 895 74555</a></p>
-                                            <p><a href="tel:1234567890">+817 895 74555</a></p>
+                                            <p><a href="tel:9922756972">+91 992 275 6972</a></p>
                                         </div>
                                     </li>
 
@@ -98,39 +102,13 @@
                                         </div>
 
                                         <div class="text-box">
-                                            <p><a href="mailto:yourmail@email.com">help24/7@cleanin.com</a></p>
-                                            <p><a href="mailto:yourmail@email.com">help24/7@cleanin.com</a></p>
+                                             <p><a href="mailto:yashenterprises5556@gmail.com">yashenterprises5556@gmail.com</a></p>
                                         </div>
                                     </li>
                                 </ul>
                             </div>
                         </div>
 
-                        <div class="col-xl-3 col-lg-6 col-md-6  wow fadeInUp" data-wow-delay=".3s">
-                            <div class="footer-widget__single footer-widget__newsletter">
-                                <div class="title-box">
-                                    <h2>Newsletter</h2>
-                                    <div class="line"></div>
-                                </div>
-
-                                <div class="footer-widget__newsletter-text">
-                                    <p>Subscribe our newsletter to get our latest update & news</p>
-                                </div>
-
-                                <div class="footer-one__subscribe-form">
-                                    <form class="subscribe-form" action="#">
-                                        <input type="email" name="email" placeholder="Your E-mail">
-                                        <button type="submit" class="thm-btn">Subscribe
-                                            <i class="icon-next"></i>
-                                            <span class="hover-btn hover-bx"></span>
-                                            <span class="hover-btn hover-bx2"></span>
-                                            <span class="hover-btn hover-bx3"></span>
-                                            <span class="hover-btn hover-bx4"></span>
-                                        </button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -143,15 +121,8 @@
                         <div class="col-xl-12">
                             <div class="site-footer__bottom-inner">
                                 <div class="site-footer__copyright">
-                                    <p>Copyright@ 2025 <a href="index.html">Cleanin</a>. All Rights Reserved.</p>
+                                    <p>Copyright@ {{ date('Y') }} Yash Enterprises. All Rights Reserved.</p>
                                 </div>
-
-                                <ul class="site-footer__bottom-menu">
-                                    <li><a href="privacy.html">Setting & Privacy </a></li>
-                                    <li><a href="faq.html">FAQ</a></li>
-                                    <li><a href="contact-1.html">Support</a></li>
-                                </ul>
-
                             </div>
                         </div>
                     </div>

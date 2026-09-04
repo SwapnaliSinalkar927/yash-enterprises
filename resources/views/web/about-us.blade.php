@@ -457,9 +457,8 @@
                             </div>
 
                             <div class="content-box text-center">
-                                <h2><a href="#">Make A Plan</a></h2>
-                                <p>It is a long established fact that a reader will be distracted by the readable
-                                    content of a page when looking at its layout. The point of using.</p>
+                                <h2><a href="#">Plan Your Cleaning</a></h2>
+                                <p>Tell us what you need cleaned, and we’ll help you choose the right service.</p>
                             </div>
                         </div>
                     </div>
@@ -474,9 +473,8 @@
                             </div>
 
                             <div class="content-box text-center">
-                                <h2><a href="#">Set a Date</a></h2>
-                                <p>It is a long established fact that a reader will be distracted by the readable
-                                    content of a page when looking at its layout. The point of using.</p>
+                                <h2><a href="#">Choose a Convenient Date</a></h2>
+                                <p>Pick a date and time that works best for you.</p>
                             </div>
                         </div>
                     </div>
@@ -491,9 +489,8 @@
                             </div>
 
                             <div class="content-box text-center">
-                                <h2><a href="#">Start Cleaning</a></h2>
-                                <p>It is a long established fact that a reader will be distracted by the readable
-                                    content of a page when looking at its layout. The point of using.</p>
+                                <h2><a href="#">Enjoy a Clean Space</a></h2>
+                                <p>Our team will arrive on time and clean your space with care.</p>
                             </div>
                         </div>
                     </div>
@@ -520,872 +517,67 @@
                         Professional Team</h2>
                 </div>
 
-                <div class="team-one__carousel owl-carousel owl-theme thm-dot-style1">
+                <div class="container">
+                    <div class="row" style="justify-content:center;">
+                        <!--Start Team Three Single-->
+                        <div class="col-xl-6 col-lg-6 col-md-6 wow fadeInUp animated" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;width:500px;">
+                            <div class="team-three__single">
+                                <div class="team-three__single-img">
+                                    <img style="height:500px" src="{{ asset('images/team/yash.webp') }}" alt="">
 
-                    <!--Start Team One Single-->
-                    <div class="team-one__single">
-                        <div class="team-one__single-inner">
-                            <div class="team-one__single-img">
-                                <img src="{{ asset('images/team/team-v1-img1.jpg') }}" alt="">
-                            </div>
-
-                            <div class="team-one__single-content">
-                                <div class="img-box">
-                                    <img src="{{ asset('images/team/team-v1-img5.jpg') }}" alt="#">
+                                    <ul class="team-three__social-links">
+                                        <li><a href="#">fb</a></li>
+                                        <li><a href="#">tw</a></li>
+                                        <li><a href="#">yt</a></li>
+                                        <li><a href="#">li</a></li>
+                                    </ul>
                                 </div>
 
-                                <div class="text-box">
-                                    <h2><a href="team-details.html">Robert Michale</a></h2>
-                                    <p>Window Cleaner</p>
-                                </div>
-
-                                <div class="social-links">
-                                    <a href="#"><span class="icon-facebook-app-symbol"></span></a>
-                                    <a href="#"><span class="icon-twitter-1"></span></a>
-                                    <a href="#"><span class="icon-instagram"></span></a>
-                                    <a href="#"><span class="icon-pinterest"></span></a>
+                                <div class="team-three__single-content">
+                                    <div class="shape1"><img src="{{ asset('images/shapes/team-v3-shape1.png') }}" alt=""></div>
+                                    <h2><a href="team-details.php">Yash Fulsundar</a></h2>
+                                    <p>DIRECTOR</p>
+                                    <p>Runs every job personally. From quoting the work to checking the final clean, Yash keeps each site on schedule and up to standard.</p>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <!--End Team One Single-->
+                        <!--End Team Three Single-->
 
-                    <!--Start Team One Single-->
-                    <div class="team-one__single">
-                        <div class="team-one__single-inner">
-                            <div class="team-one__single-img">
-                                <img src="{{ asset('images/team/team-v1-img2.jpg') }}" alt="">
-                            </div>
+                        <!--Start Team Three Single-->
+                        <div class="col-xl-6 col-lg-6 col-md-6 wow fadeInDown animated" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInDown;width:500px;">
+                            <div class="team-three__single">
+                                <div class="team-three__single-img">
+                                    <img style="height:500px" src="{{ asset('images/team/saurab.webp') }}" alt="">
 
-                            <div class="team-one__single-content">
-                                <div class="img-box">
-                                    <img src="{{ asset('images/team/team-v1-img6.jpg') }}" alt="#">
+                                    <ul class="team-three__social-links">
+                                        <li><a href="#">fb</a></li>
+                                        <li><a href="#">tw</a></li>
+                                        <li><a href="#">yt</a></li>
+                                        <li><a href="#">li</a></li>
+                                    </ul>
                                 </div>
 
-                                <div class="text-box">
-                                    <h2><a href="team-details.html">Mike Hussy</a></h2>
-                                    <p>Window Cleaner</p>
-                                </div>
-
-                                <div class="social-links">
-                                    <a href="#"><span class="icon-facebook-app-symbol"></span></a>
-                                    <a href="#"><span class="icon-twitter-1"></span></a>
-                                    <a href="#"><span class="icon-instagram"></span></a>
-                                    <a href="#"><span class="icon-pinterest"></span></a>
+                                <div class="team-three__single-content">
+                                    <div class="shape1"><img src="{{ asset('images/shapes/team-v3-shape1.png') }}" alt=""></div>
+                                    <h2><a href="team-details.php">Mr Saurabh Lendave</a></h2>
+                                    <p>MANGER</p>
+                                    <p>Leads the on-site team for larger industrial shifts. Makes sure every crew member knows their task and finishes the job on time.</p>
                                 </div>
                             </div>
                         </div>
+                        <!--End Team Three Single-->
                     </div>
-                    <!--End Team One Single-->
-
-                    <!--Start Team One Single-->
-                    <div class="team-one__single">
-                        <div class="team-one__single-inner">
-                            <div class="team-one__single-img">
-                                <img src="{{ asset('images/team/team-v1-img3.jpg') }}" alt="">
-                            </div>
-
-                            <div class="team-one__single-content">
-                                <div class="img-box">
-                                    <img src="{{ asset('images/team/team-v1-img7.jpg') }}" alt="#">
-                                </div>
-
-                                <div class="text-box">
-                                    <h2><a href="team-details.html">Robert Mike</a></h2>
-                                    <p>Window Cleaner</p>
-                                </div>
-
-                                <div class="social-links">
-                                    <a href="#"><span class="icon-facebook-app-symbol"></span></a>
-                                    <a href="#"><span class="icon-twitter-1"></span></a>
-                                    <a href="#"><span class="icon-instagram"></span></a>
-                                    <a href="#"><span class="icon-pinterest"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Team One Single-->
-
-                    <!--Start Team One Single-->
-                    <div class="team-one__single">
-                        <div class="team-one__single-inner">
-                            <div class="team-one__single-img">
-                                <img src="{{ asset('images/team/team-v1-img4.jpg') }}" alt="">
-                            </div>
-
-                            <div class="team-one__single-content">
-                                <div class="img-box">
-                                    <img src="{{ asset('images/team/team-v1-img8.jpg') }}" alt="#">
-                                </div>
-
-                                <div class="text-box">
-                                    <h2><a href="team-details.html">Michale Hussy</a></h2>
-                                    <p>Window Cleaner</p>
-                                </div>
-
-                                <div class="social-links">
-                                    <a href="#"><span class="icon-facebook-app-symbol"></span></a>
-                                    <a href="#"><span class="icon-twitter-1"></span></a>
-                                    <a href="#"><span class="icon-instagram"></span></a>
-                                    <a href="#"><span class="icon-pinterest"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Team One Single-->
-
-                    <!--Start Team One Single-->
-                    <div class="team-one__single">
-                        <div class="team-one__single-inner">
-                            <div class="team-one__single-img">
-                                <img src="{{ asset('images/team/team-v1-img1.jpg') }}" alt="">
-                            </div>
-
-                            <div class="team-one__single-content">
-                                <div class="img-box">
-                                    <img src="{{ asset('images/team/team-v1-img5.jpg') }}" alt="#">
-                                </div>
-
-                                <div class="text-box">
-                                    <h2><a href="team-details.html">Robert Michale</a></h2>
-                                    <p>Window Cleaner</p>
-                                </div>
-
-                                <div class="social-links">
-                                    <a href="#"><span class="icon-facebook-app-symbol"></span></a>
-                                    <a href="#"><span class="icon-twitter-1"></span></a>
-                                    <a href="#"><span class="icon-instagram"></span></a>
-                                    <a href="#"><span class="icon-pinterest"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Team One Single-->
-
-                    <!--Start Team One Single-->
-                    <div class="team-one__single">
-                        <div class="team-one__single-inner">
-                            <div class="team-one__single-img">
-                                <img src="{{ asset('images/team/team-v1-img2.jpg') }}" alt="">
-                            </div>
-
-                            <div class="team-one__single-content">
-                                <div class="img-box">
-                                    <img src="{{ asset('images/team/team-v1-img6.jpg') }}" alt="#">
-                                </div>
-
-                                <div class="text-box">
-                                    <h2><a href="team-details.html">Mike Hussy</a></h2>
-                                    <p>Window Cleaner</p>
-                                </div>
-
-                                <div class="social-links">
-                                    <a href="#"><span class="icon-facebook-app-symbol"></span></a>
-                                    <a href="#"><span class="icon-twitter-1"></span></a>
-                                    <a href="#"><span class="icon-instagram"></span></a>
-                                    <a href="#"><span class="icon-pinterest"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Team One Single-->
-
-                    <!--Start Team One Single-->
-                    <div class="team-one__single">
-                        <div class="team-one__single-inner">
-                            <div class="team-one__single-img">
-                                <img src="{{ asset('images/team/team-v1-img3.jpg') }}" alt="">
-                            </div>
-
-                            <div class="team-one__single-content">
-                                <div class="img-box">
-                                    <img src="{{ asset('images/team/team-v1-img7.jpg') }}" alt="#">
-                                </div>
-
-                                <div class="text-box">
-                                    <h2><a href="team-details.html">Robert Mike</a></h2>
-                                    <p>Window Cleaner</p>
-                                </div>
-
-                                <div class="social-links">
-                                    <a href="#"><span class="icon-facebook-app-symbol"></span></a>
-                                    <a href="#"><span class="icon-twitter-1"></span></a>
-                                    <a href="#"><span class="icon-instagram"></span></a>
-                                    <a href="#"><span class="icon-pinterest"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Team One Single-->
-
-                    <!--Start Team One Single-->
-                    <div class="team-one__single">
-                        <div class="team-one__single-inner">
-                            <div class="team-one__single-img">
-                                <img src="{{ asset('images/team/team-v1-img4.jpg') }}" alt="">
-                            </div>
-
-                            <div class="team-one__single-content">
-                                <div class="img-box">
-                                    <img src="{{ asset('images/team/team-v1-img8.jpg') }}" alt="#">
-                                </div>
-
-                                <div class="text-box">
-                                    <h2><a href="team-details.html">Michale Hussy</a></h2>
-                                    <p>Window Cleaner</p>
-                                </div>
-
-                                <div class="social-links">
-                                    <a href="#"><span class="icon-facebook-app-symbol"></span></a>
-                                    <a href="#"><span class="icon-twitter-1"></span></a>
-                                    <a href="#"><span class="icon-instagram"></span></a>
-                                    <a href="#"><span class="icon-pinterest"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Team One Single-->
-
-                    <!--Start Team One Single-->
-                    <div class="team-one__single">
-                        <div class="team-one__single-inner">
-                            <div class="team-one__single-img">
-                                <img src="{{ asset('images/team/team-v1-img1.jpg') }}" alt="">
-                            </div>
-
-                            <div class="team-one__single-content">
-                                <div class="img-box">
-                                    <img src="{{ asset('images/team/team-v1-img5.jpg') }}" alt="#">
-                                </div>
-
-                                <div class="text-box">
-                                    <h2><a href="team-details.html">Robert Michale</a></h2>
-                                    <p>Window Cleaner</p>
-                                </div>
-
-                                <div class="social-links">
-                                    <a href="#"><span class="icon-facebook-app-symbol"></span></a>
-                                    <a href="#"><span class="icon-twitter-1"></span></a>
-                                    <a href="#"><span class="icon-instagram"></span></a>
-                                    <a href="#"><span class="icon-pinterest"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Team One Single-->
-
-                    <!--Start Team One Single-->
-                    <div class="team-one__single">
-                        <div class="team-one__single-inner">
-                            <div class="team-one__single-img">
-                                <img src="{{ asset('images/team/team-v1-img2.jpg') }}" alt="">
-                            </div>
-
-                            <div class="team-one__single-content">
-                                <div class="img-box">
-                                    <img src="{{ asset('images/team/team-v1-img6.jpg') }}" alt="#">
-                                </div>
-
-                                <div class="text-box">
-                                    <h2><a href="team-details.html">Mike Hussy</a></h2>
-                                    <p>Window Cleaner</p>
-                                </div>
-
-                                <div class="social-links">
-                                    <a href="#"><span class="icon-facebook-app-symbol"></span></a>
-                                    <a href="#"><span class="icon-twitter-1"></span></a>
-                                    <a href="#"><span class="icon-instagram"></span></a>
-                                    <a href="#"><span class="icon-pinterest"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Team One Single-->
-
-                    <!--Start Team One Single-->
-                    <div class="team-one__single">
-                        <div class="team-one__single-inner">
-                            <div class="team-one__single-img">
-                                <img src="{{ asset('images/team/team-v1-img3.jpg') }}" alt="">
-                            </div>
-
-                            <div class="team-one__single-content">
-                                <div class="img-box">
-                                    <img src="{{ asset('images/team/team-v1-img7.jpg') }}" alt="#">
-                                </div>
-
-                                <div class="text-box">
-                                    <h2><a href="team-details.html">Robert Mike</a></h2>
-                                    <p>Window Cleaner</p>
-                                </div>
-
-                                <div class="social-links">
-                                    <a href="#"><span class="icon-facebook-app-symbol"></span></a>
-                                    <a href="#"><span class="icon-twitter-1"></span></a>
-                                    <a href="#"><span class="icon-instagram"></span></a>
-                                    <a href="#"><span class="icon-pinterest"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Team One Single-->
-
-                    <!--Start Team One Single-->
-                    <div class="team-one__single">
-                        <div class="team-one__single-inner">
-                            <div class="team-one__single-img">
-                                <img src="{{ asset('images/team/team-v1-img4.jpg') }}" alt="">
-                            </div>
-
-                            <div class="team-one__single-content">
-                                <div class="img-box">
-                                    <img src="{{ asset('images/team/team-v1-img8.jpg') }}" alt="#">
-                                </div>
-
-                                <div class="text-box">
-                                    <h2><a href="team-details.html">Michale Hussy</a></h2>
-                                    <p>Window Cleaner</p>
-                                </div>
-
-                                <div class="social-links">
-                                    <a href="#"><span class="icon-facebook-app-symbol"></span></a>
-                                    <a href="#"><span class="icon-twitter-1"></span></a>
-                                    <a href="#"><span class="icon-instagram"></span></a>
-                                    <a href="#"><span class="icon-pinterest"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Team One Single-->
-
-                    <!--Start Team One Single-->
-                    <div class="team-one__single">
-                        <div class="team-one__single-inner">
-                            <div class="team-one__single-img">
-                                <img src="{{ asset('images/team/team-v1-img1.jpg') }}" alt="">
-                            </div>
-
-                            <div class="team-one__single-content">
-                                <div class="img-box">
-                                    <img src="{{ asset('images/team/team-v1-img5.jpg') }}" alt="#">
-                                </div>
-
-                                <div class="text-box">
-                                    <h2><a href="team-details.html">Robert Michale</a></h2>
-                                    <p>Window Cleaner</p>
-                                </div>
-
-                                <div class="social-links">
-                                    <a href="#"><span class="icon-facebook-app-symbol"></span></a>
-                                    <a href="#"><span class="icon-twitter-1"></span></a>
-                                    <a href="#"><span class="icon-instagram"></span></a>
-                                    <a href="#"><span class="icon-pinterest"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Team One Single-->
-
-                    <!--Start Team One Single-->
-                    <div class="team-one__single">
-                        <div class="team-one__single-inner">
-                            <div class="team-one__single-img">
-                                <img src="{{ asset('images/team/team-v1-img2.jpg') }}" alt="">
-                            </div>
-
-                            <div class="team-one__single-content">
-                                <div class="img-box">
-                                    <img src="{{ asset('images/team/team-v1-img6.jpg') }}" alt="#">
-                                </div>
-
-                                <div class="text-box">
-                                    <h2><a href="team-details.html">Mike Hussy</a></h2>
-                                    <p>Window Cleaner</p>
-                                </div>
-
-                                <div class="social-links">
-                                    <a href="#"><span class="icon-facebook-app-symbol"></span></a>
-                                    <a href="#"><span class="icon-twitter-1"></span></a>
-                                    <a href="#"><span class="icon-instagram"></span></a>
-                                    <a href="#"><span class="icon-pinterest"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Team One Single-->
-
-                    <!--Start Team One Single-->
-                    <div class="team-one__single">
-                        <div class="team-one__single-inner">
-                            <div class="team-one__single-img">
-                                <img src="{{ asset('images/team/team-v1-img3.jpg') }}" alt="">
-                            </div>
-
-                            <div class="team-one__single-content">
-                                <div class="img-box">
-                                    <img src="{{ asset('images/team/team-v1-img7.jpg') }}" alt="#">
-                                </div>
-
-                                <div class="text-box">
-                                    <h2><a href="team-details.html">Robert Mike</a></h2>
-                                    <p>Window Cleaner</p>
-                                </div>
-
-                                <div class="social-links">
-                                    <a href="#"><span class="icon-facebook-app-symbol"></span></a>
-                                    <a href="#"><span class="icon-twitter-1"></span></a>
-                                    <a href="#"><span class="icon-instagram"></span></a>
-                                    <a href="#"><span class="icon-pinterest"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Team One Single-->
-
-                    <!--Start Team One Single-->
-                    <div class="team-one__single">
-                        <div class="team-one__single-inner">
-                            <div class="team-one__single-img">
-                                <img src="{{ asset('images/team/team-v1-img4.jpg') }}" alt="">
-                            </div>
-
-                            <div class="team-one__single-content">
-                                <div class="img-box">
-                                    <img src="{{ asset('images/team/team-v1-img8.jpg') }}" alt="#">
-                                </div>
-
-                                <div class="text-box">
-                                    <h2><a href="team-details.html">Michale Hussy</a></h2>
-                                    <p>Window Cleaner</p>
-                                </div>
-
-                                <div class="social-links">
-                                    <a href="#"><span class="icon-facebook-app-symbol"></span></a>
-                                    <a href="#"><span class="icon-twitter-1"></span></a>
-                                    <a href="#"><span class="icon-instagram"></span></a>
-                                    <a href="#"><span class="icon-pinterest"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Team One Single-->
                 </div>
             </div>
         </section>
         <!--End Team One-->
 
-        <!--Start Why Choose One-->
-        <section class="why-choose-one">
-            <div class="why-choose-one__bg"
-                style="background-image: url({{ asset('images/backgrounds/why-choose-v1-bg.jpg') }});"></div>
-            <div class="shape1"></div>
-            <div class="shape2"></div>
-            <div class="shape3 scale"><img src="{{ asset('images/shapes/why-choose-v1-shape1.png') }}" alt=""></div>
-            <div class="shape4 float-bob-x"><img src="{{ asset('images/shapes/why-choose-v1-shape1.png') }}" alt=""></div>
-            <div class="shape5 float-bob-y"><img src="{{ asset('images/shapes/why-choose-v1-shape1.png') }}" alt=""></div>
-            <div class="container">
-                <div class="why-choose-one__inner">
-                    <div class="sec-title sec-title-animation animation-style2">
-                        <div class="sec-title__tagline">
-                            <div class="icon-box">
-                                <span class="icon-household"></span>
-                            </div>
-
-                            <div class="text title-animation">
-                                <h4>Why Choose us?</h4>
-                            </div>
-                        </div>
-                        <h2 class="sec-title__title title-animation">We Will Make Absolutely Any <br> Place Clean, Neat
-                            & Tidy.</h2>
-                    </div>
-
-                    <div class="why-choose-one__tab tab-box">
-                        <ul class="tabs-button-box clearfix">
-                            <li data-tab="#mission" class="tab-btn-item active-btn">
-                                <h3><span class="icon-target"></span> Our Mission</h3>
-                            </li>
-                            <li data-tab="#vision" class="tab-btn-item">
-                                <h3><span class="icon-achievement"></span> Our Vision</h3>
-                            </li>
-                            <li data-tab="#philosophy" class="tab-btn-item">
-                                <h3><span class="icon-cleaning-service"></span> Our Philosophy</h3>
-                            </li>
-                        </ul>
-
-                        <div class="tabs-content tabs-content-box">
-                            <!--Start Single Tab Content-->
-                            <div class="tab tab-active" id="mission">
-                                <div class="why-choose-one__single-tab">
-                                    <div class="why-choose-one__single-tab-inner">
-                                        <div class="row">
-                                            <div class="col-xl-6 col-lg-6">
-                                                <div class="why-choose-one__single-tab-img">
-                                                    <div class="inner">
-                                                        <img src="{{ asset('images/resources/why-choose-v1-img1.jpg') }}"
-                                                            alt="#">
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-xl-6 col-lg-6">
-                                                <div class="why-choose-one__single-tab-content">
-                                                    <h2>Our Two-Part Satisfaction Guarantee!</h2>
-                                                    <p>It is a long established fact that a reader will be distracted by
-                                                        the readable content of a page when looking at its layout. The
-                                                        point
-                                                        of using Lorem Ipsum is that it has a more-or-less normal
-                                                        distribution of letters, as opposed.</p>
-                                                    <div class="btn-box">
-                                                        <a class="thm-btn" href="contact-1.html">View Terms of Service
-                                                            <i class="icon-next"></i>
-                                                            <span class="hover-btn hover-bx"></span>
-                                                            <span class="hover-btn hover-bx2"></span>
-                                                            <span class="hover-btn hover-bx3"></span>
-                                                            <span class="hover-btn hover-bx4"></span>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--End Single Tab Content-->
-
-                            <!--Start Single Tab Content-->
-                            <div class="tab" id="vision">
-                                <div class="why-choose-one__single-tab">
-                                    <div class="why-choose-one__single-tab-inner">
-                                        <div class="row">
-                                            <div class="col-xl-6 col-lg-6">
-                                                <div class="why-choose-one__single-tab-img">
-                                                    <div class="inner">
-                                                        <img src="{{ asset('images/resources/why-choose-v1-img2.jpg') }}"
-                                                            alt="#">
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-xl-6 col-lg-6">
-                                                <div class="why-choose-one__single-tab-content">
-                                                    <h2>Expert Cleaning Team </h2>
-                                                    <p>It is a long established fact that a reader will be distracted by
-                                                        the readable content of a page when looking at its layout. The
-                                                        point
-                                                        of using Lorem Ipsum is that it has a more-or-less normal
-                                                        distribution of letters, as opposed.</p>
-                                                    <div class="btn-box">
-                                                        <a class="thm-btn" href="contact-1.html">View Terms of Service
-                                                            <i class="icon-next"></i>
-                                                            <span class="hover-btn hover-bx"></span>
-                                                            <span class="hover-btn hover-bx2"></span>
-                                                            <span class="hover-btn hover-bx3"></span>
-                                                            <span class="hover-btn hover-bx4"></span>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--End Single Tab Content-->
-
-                            <!--Start Single Tab Content-->
-                            <div class="tab" id="philosophy">
-                                <div class="why-choose-one__single-tab">
-                                    <div class="why-choose-one__single-tab-inner">
-                                        <div class="row">
-                                            <div class="col-xl-6 col-lg-6">
-                                                <div class="why-choose-one__single-tab-img">
-                                                    <div class="inner">
-                                                        <img src="{{ asset('images/resources/why-choose-v1-img3.jpg') }}"
-                                                            alt="#">
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-xl-6 col-lg-6">
-                                                <div class="why-choose-one__single-tab-content">
-                                                    <h2>24/7 Online Support </h2>
-                                                    <p>It is a long established fact that a reader will be distracted by
-                                                        the readable content of a page when looking at its layout. The
-                                                        point
-                                                        of using Lorem Ipsum is that it has a more-or-less normal
-                                                        distribution of letters, as opposed.</p>
-                                                    <div class="btn-box">
-                                                        <a class="thm-btn" href="contact-1.html">View Terms of Service
-                                                            <i class="icon-next"></i>
-                                                            <span class="hover-btn hover-bx"></span>
-                                                            <span class="hover-btn hover-bx2"></span>
-                                                            <span class="hover-btn hover-bx3"></span>
-                                                            <span class="hover-btn hover-bx4"></span>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--End Single Tab Content-->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--End Why Choose One-->
-
-
-        <!--Start Testimonial One-->
-        <section class="testimonial-one">
-            <div class="shape1"><img src="{{ asset('images/shapes/testimonial-v1-shape1.png') }}" alt=""></div>
-            <div class="container">
-                <div class="sec-title sec-title-animation animation-style2">
-                    <div class="sec-title__tagline">
-                        <div class="icon-box">
-                            <span class="icon-household"></span>
-                        </div>
-
-                        <div class="text title-animation">
-                            <h4>Testimonials</h4>
-                        </div>
-                    </div>
-                    <h2 class="sec-title__title title-animation">Our Customer’s Feedback</h2>
-                </div>
-
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="testimonial-one__carousel owl-carousel owl-theme">
-
-                            <!--Start Testimonial One Single-->
-                            <div class="testimonial-one__single text-center">
-                                <div class="testimonial-one__single-img">
-                                    <img src="{{ asset('images/testimonial/testimonial-v1-img1.jpg') }}" alt="">
-                                </div>
-                                <div class="testimonial-one__single-inner">
-                                    <h2>Savannah Nguyen</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority
-                                        have suffered alteration in some form.</p>
-
-                                    <div class="rating-box">
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                    </div>
-                                </div>
-                                <div class="icon-box">
-                                    <span class="icon-quotation-up"></span>
-                                </div>
-                            </div>
-                            <!--End Testimonial One Single-->
-
-                            <!--Start Testimonial One Single-->
-                            <div class="testimonial-one__single text-center">
-                                <div class="testimonial-one__single-img">
-                                    <img src="{{ asset('images/testimonial/testimonial-v1-img2.jpg') }}" alt="">
-                                </div>
-                                <div class="testimonial-one__single-inner">
-                                    <h2>Dwayne Johnson</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority
-                                        have suffered alteration in some form.</p>
-
-                                    <div class="rating-box">
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                    </div>
-                                </div>
-                                <div class="icon-box">
-                                    <span class="icon-quotation-up"></span>
-                                </div>
-                            </div>
-                            <!--End Testimonial One Single-->
-
-                            <!--Start Testimonial One Single-->
-                            <div class="testimonial-one__single text-center">
-                                <div class="testimonial-one__single-img">
-                                    <img src="{{ asset('images/testimonial/testimonial-v1-img3.jpg') }}" alt="">
-                                </div>
-                                <div class="testimonial-one__single-inner">
-                                    <h2>John D. Alexon</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority
-                                        have suffered alteration in some form.</p>
-
-                                    <div class="rating-box">
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                    </div>
-                                </div>
-                                <div class="icon-box">
-                                    <span class="icon-quotation-up"></span>
-                                </div>
-                            </div>
-                            <!--End Testimonial One Single-->
-
-                            <!--Start Testimonial One Single-->
-                            <div class="testimonial-one__single text-center">
-                                <div class="testimonial-one__single-img">
-                                    <img src="{{ asset('images/testimonial/testimonial-v1-img1.jpg') }}" alt="">
-                                </div>
-                                <div class="testimonial-one__single-inner">
-                                    <h2>Savannah Nguyen</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority
-                                        have suffered alteration in some form.</p>
-
-                                    <div class="rating-box">
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                    </div>
-                                </div>
-                                <div class="icon-box">
-                                    <span class="icon-quotation-up"></span>
-                                </div>
-                            </div>
-                            <!--End Testimonial One Single-->
-
-                            <!--Start Testimonial One Single-->
-                            <div class="testimonial-one__single text-center">
-                                <div class="testimonial-one__single-img">
-                                    <img src="{{ asset('images/testimonial/testimonial-v1-img2.jpg') }}" alt="">
-                                </div>
-                                <div class="testimonial-one__single-inner">
-                                    <h2>Dwayne Johnson</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority
-                                        have suffered alteration in some form.</p>
-
-                                    <div class="rating-box">
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                    </div>
-                                </div>
-                                <div class="icon-box">
-                                    <span class="icon-quotation-up"></span>
-                                </div>
-                            </div>
-                            <!--End Testimonial One Single-->
-
-                            <!--Start Testimonial One Single-->
-                            <div class="testimonial-one__single text-center">
-                                <div class="testimonial-one__single-img">
-                                    <img src="{{ asset('images/testimonial/testimonial-v1-img3.jpg') }}" alt="">
-                                </div>
-                                <div class="testimonial-one__single-inner">
-                                    <h2>John D. Alexon</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority
-                                        have suffered alteration in some form.</p>
-
-                                    <div class="rating-box">
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                    </div>
-                                </div>
-                                <div class="icon-box">
-                                    <span class="icon-quotation-up"></span>
-                                </div>
-                            </div>
-                            <!--End Testimonial One Single-->
-
-                            <!--Start Testimonial One Single-->
-                            <div class="testimonial-one__single text-center">
-                                <div class="testimonial-one__single-img">
-                                    <img src="{{ asset('images/testimonial/testimonial-v1-img1.jpg') }}" alt="">
-                                </div>
-                                <div class="testimonial-one__single-inner">
-                                    <h2>Savannah Nguyen</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority
-                                        have suffered alteration in some form.</p>
-
-                                    <div class="rating-box">
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                    </div>
-                                </div>
-                                <div class="icon-box">
-                                    <span class="icon-quotation-up"></span>
-                                </div>
-                            </div>
-                            <!--End Testimonial One Single-->
-
-                            <!--Start Testimonial One Single-->
-                            <div class="testimonial-one__single text-center">
-                                <div class="testimonial-one__single-img">
-                                    <img src="{{ asset('images/testimonial/testimonial-v1-img2.jpg') }}" alt="">
-                                </div>
-                                <div class="testimonial-one__single-inner">
-                                    <h2>Dwayne Johnson</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority
-                                        have suffered alteration in some form.</p>
-
-                                    <div class="rating-box">
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                    </div>
-                                </div>
-                                <div class="icon-box">
-                                    <span class="icon-quotation-up"></span>
-                                </div>
-                            </div>
-                            <!--End Testimonial One Single-->
-
-                            <!--Start Testimonial One Single-->
-                            <div class="testimonial-one__single text-center">
-                                <div class="testimonial-one__single-img">
-                                    <img src="{{ asset('images/testimonial/testimonial-v1-img3.jpg') }}" alt="">
-                                </div>
-                                <div class="testimonial-one__single-inner">
-                                    <h2>John D. Alexon</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority
-                                        have suffered alteration in some form.</p>
-
-                                    <div class="rating-box">
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                        <a href="#"><i class="icon-star"></i></a>
-                                    </div>
-                                </div>
-                                <div class="icon-box">
-                                    <span class="icon-quotation-up"></span>
-                                </div>
-                            </div>
-                            <!--End Testimonial One Single-->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--End Testimonial One-->
-
         <!--Start Brand One-->
-        <section class="brand-one brand-one--two about">
+        <!-- <section class="brand-one brand-one--two about">
             <div class="container">
                 <div class="brand-one__inner">
                     <div class="brand-one__carousel owl-carousel owl-theme">
-                        <!--Start Brand One Single-->
+                      
                         <div class="brand-one__single">
                             <div class="brand-one__single-inner">
                                 <a href="#">
@@ -1394,9 +586,7 @@
                                 </a>
                             </div>
                         </div>
-                        <!--End Brand One Single-->
-
-                        <!--Start Brand One Single-->
+                       
                         <div class="brand-one__single">
                             <div class="brand-one__single-inner">
                                 <a href="#">
@@ -1405,9 +595,7 @@
                                 </a>
                             </div>
                         </div>
-                        <!--End Brand One Single-->
-
-                        <!--Start Brand One Single-->
+                       
                         <div class="brand-one__single">
                             <div class="brand-one__single-inner">
                                 <a href="#">
@@ -1416,9 +604,7 @@
                                 </a>
                             </div>
                         </div>
-                        <!--End Brand One Single-->
-
-                        <!--Start Brand One Single-->
+                       
                         <div class="brand-one__single">
                             <div class="brand-one__single-inner">
                                 <a href="#">
@@ -1427,9 +613,7 @@
                                 </a>
                             </div>
                         </div>
-                        <!--End Brand One Single-->
-
-                        <!--Start Brand One Single-->
+                       
                         <div class="brand-one__single">
                             <div class="brand-one__single-inner">
                                 <a href="#">
@@ -1438,9 +622,7 @@
                                 </a>
                             </div>
                         </div>
-                        <!--End Brand One Single-->
-
-                        <!--Start Brand One Single-->
+                        
                         <div class="brand-one__single">
                             <div class="brand-one__single-inner">
                                 <a href="#">
@@ -1449,40 +631,12 @@
                                 </a>
                             </div>
                         </div>
-                        <!--End Brand One Single-->
+                       
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!--End Brand One-->
-
-        <!--Start Cta One -->
-        <section class="cta-one">
-            <div class="shape1"></div>
-            <div class="cta-one__bg" style="background-image: url({{ asset('images/backgrounds/cta-v1-bg.jpg') }});">
-            </div>
-            <div class="container clearfix">
-                <div class="cta-one__inner">
-                    <div class="cta-one__content">
-                        <div class="text-box">
-                            <p>Quality Services provider</p>
-                            <h2>Need Our services?</h2>
-                        </div>
-
-                        <div class="btn-box">
-                            <a class="thm-btn" href="contact-1.html">get free quote
-                                <i class="icon-next"></i>
-                                <span class="hover-btn hover-bx"></span>
-                                <span class="hover-btn hover-bx2"></span>
-                                <span class="hover-btn hover-bx3"></span>
-                                <span class="hover-btn hover-bx4"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--End Cta One -->
 @endsection
 
 @section('script')

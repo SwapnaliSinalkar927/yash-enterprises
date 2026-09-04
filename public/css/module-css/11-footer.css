@@ -275,7 +275,7 @@
     height: 30px;
     background: rgba(var(--cleanin-white-rgb), 0.25);
     border-radius: 6px;
-    top: 6px;
+    /* top: 6px; */
 }
 
 .footer-widget__contact-list li .icon-box span {
@@ -390,7 +390,7 @@
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 24px 0px 22px;
 }
 
