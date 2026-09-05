@@ -61,7 +61,7 @@
                         <div class="main-menu__wrapper-inner">
                             <div class="main-header-one__bottom-left">
                                 <div class="logo-one">
-                                    <a href="{{ route('index') }}"><img src="{{ asset('images/resources/logo-1.png') }}" alt=""></a>
+                                    <a href="{{ route('index') }}"><img style="height: 100px;width:150px;" src="{{ asset('images/logo/yash-logo.jpeg') }}" alt=""></a>
                                 </div>
                             </div>
 
