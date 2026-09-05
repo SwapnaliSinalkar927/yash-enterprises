@@ -57,33 +57,38 @@
                     <!--End Contact Page Content-->
 
                     <!--Start Contact Page Form-->
-                    <div class="col-xl-6">
+                   <div class="col-xl-6">
                         <div class="contact-page__form-box">
-                            <form class="contact-form-validated contact-page__form" action="https://templateholy.mnsithub.com/html/cleanin/main-html/assets/inc/sendemail.php"
-                                method="post" novalidate="novalidate">
+                            <div class="result"></div>
+                            <form class="contact-form-validated contact-page__form" id="contactForm2">
+
+                                <!-- FormSubmit config fields -->
+                                <input type="hidden" name="_subject" value="New Contact Form Submission">
+                                <input type="hidden" name="_captcha" value="false">
+
                                 <div class="row">
                                     <div class="col-xl-6 col-lg-6 col-md-6">
                                         <div class="input-box">
-                                            <input type="text" name="name" placeholder="Name" required="">
+                                            <input type="text" name="name" placeholder="Name" required>
                                             <div class="icon"><span class="icon-people"></span></div>
                                         </div>
                                     </div>
                                     <div class="col-xl-6 col-lg-6 col-md-6">
                                         <div class="input-box">
-                                            <input type="email" name="email" placeholder="Email" required="">
+                                            <input type="email" name="email" placeholder="Email" required>
                                             <div class="icon"><span class="icon-envelope"></span></div>
                                         </div>
                                     </div>
                                     <div class="col-xl-6 col-lg-6 col-md-6">
                                         <div class="input-box">
-                                            <input type="text" name="Phone" placeholder="Phone" required="">
+                                            <input type="text" name="Phone" placeholder="Phone" required>
                                             <div class="icon"><span class="icon-phone-call"></span></div>
                                         </div>
                                     </div>
                                     <div class="col-xl-6 col-lg-6 col-md-6">
                                         <div class="input-box">
                                             <div class="select-box">
-                                                <select class="selectmenu wide">
+                                                <select class="selectmenu wide" name="subject">
                                                     <option selected="selected">Subject</option>
                                                     <option>Subject 01</option>
                                                     <option>Subject 02</option>
@@ -116,7 +121,7 @@
                                     </div>
                                 </div>
                             </form>
-                            <div class="result"></div>
+                            
                         </div>
                     </div>
                     <!--End Contact Page Form-->
@@ -182,12 +187,71 @@
         <!--Start Google Map Two-->
         <section class="google-map-two">
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6209.242755903148!2d-77.04363602434464!3d38.90977276948481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1394992895496"
-                class="google-map-two__map">
+                src="https://www.google.com/maps?q=18.755912,73.851834&output=embed"
+                class="google-map-two__map"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
             </iframe>
         </section>
         <!--End Google Map Two-->
 @endsection
 
 @section('script')
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+
+    function styleResult(el) {
+        el.style.padding = '10px';
+        el.style.marginBottom = '20px';
+        el.style.borderRadius = '7px';
+        el.style.textAlign = 'center';
+    }
+
+    const form2 = document.getElementById('contactForm2');
+    if (form2) {
+        form2.addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            const form = e.target;
+            const resultDiv = form.parentElement.querySelector('.result');
+            const submitBtn = form.querySelector('button[type="submit"]');
+
+            submitBtn.disabled = true;
+            resultDiv.textContent = 'Sending...';
+            resultDiv.style.color = '#545557';
+            styleResult(resultDiv);
+            resultDiv.style.background = '';
+            resultDiv.style.color = '';
+
+            fetch('https://formsubmit.co/ajax/swapnali.developer@elevatexpert.in', {
+                method: 'POST',
+                headers: {
+                    'Accept': 'application/json'
+                },
+                body: new FormData(form)
+            })
+            .then(response => response.json())
+            .then(data => {
+                resultDiv.textContent = 'Form submitted successfully!';
+                styleResult(resultDiv);
+                resultDiv.style.background = 'green';
+                resultDiv.style.color = 'white';
+                form.reset();
+            })
+            .catch(error => {
+                resultDiv.textContent = 'Something went wrong. Please try again.';
+                styleResult(resultDiv);
+                resultDiv.style.background = 'red';
+                resultDiv.style.color = 'white';
+            })
+            .finally(() => {
+                submitBtn.disabled = false;
+            });
+        });
+    }
+
+});
+</script>
 @endsection

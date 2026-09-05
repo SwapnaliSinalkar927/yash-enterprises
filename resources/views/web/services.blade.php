@@ -162,7 +162,7 @@
 
                                 <div class="counter-one__single-content">
                                     <div class="count-box">
-                                        <h2 class="count-text" data-stop="3" data-speed="3">3</h2>
+                                        <h2 class="count-text" data-stop="3" data-speed="1500">00</h2>
                                         <span class="plus">+</span>
                                     </div>
                                     <p>Buildings serviced</p>
@@ -183,7 +183,7 @@
 
                                 <div class="counter-one__single-content">
                                     <div class="count-box">
-                                        <h2 class="count-text" data-stop="4" data-speed="4">4</h2>
+                                        <h2 class="count-text" data-stop="4" data-speed="1500">00</h2>
                                     </div>
                                     <p>Person running it
 
@@ -205,7 +205,7 @@
 
                                 <div class="counter-one__single-content">
                                     <div class="count-box">
-                                        <h2 class="count-text" data-stop="3.5" data-speed="3.5">3.5</h2>
+                                        <h2 class="count-text" data-stop="3.5" data-speed="1500">00</h2>
                                         <span class="plus">+</span>
                                     </div>
                                     <p>Years in Chakan</p>
@@ -226,7 +226,7 @@
 
                                 <div class="counter-one__single-content">
                                     <div class="count-box">
-                                        <h2 class="count-text" data-stop="100" data-speed="100"></h2>
+                                        <h2 class="count-text" data-stop="100" data-speed="1500">00</h2>
                                         <span class="plus">%</span>
                                     </div>
                                     <p>On-time arrival</p>

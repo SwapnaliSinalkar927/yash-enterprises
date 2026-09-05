@@ -129,14 +129,14 @@
                     <!--Start About One Img-->
                     <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <div class="about-one__img">
-                            <div class="about-one__video">
+                            <!-- <div class="about-one__video">
                                 <a href="https://www.youtube.com/watch?v=06dV9txztKY" class="video-popup">
                                     <div class="about-one__video-icon">
                                         <span class="icon-play-button-arrowhead"></span>
                                         <i class="ripple"></i>
                                     </div>
                                 </a>
-                            </div>
+                            </div> -->
 
                             <div class="row">
                                 <div class="col-xl-6 col-lg-6 col-md-6">
@@ -154,7 +154,7 @@
                                     <div class="about-one__img-right">
                                         <div class="about-one__experience">
                                             <div class="count-box">
-                                                <h2 class="count-text" data-stop="30" data-speed="1500">00</h2>
+                                                <h2 class="count-text" data-stop="3.5" data-speed="1500">00</h2>
                                                 <span>+</span>
                                             </div>
                                             <p>Years Of Experience</p>
@@ -545,7 +545,7 @@
 
                                 <div class="counter-one__single-content">
                                     <div class="count-box">
-                                        <h2 class="count-text" data-stop="3" data-speed="3">3</h2>
+                                        <h2 class="count-text" data-stop="3" data-speed="1500">00</h2>
                                         <span class="plus">+</span>
                                     </div>
                                     <p>Buildings serviced</p>
@@ -566,7 +566,7 @@
 
                                 <div class="counter-one__single-content">
                                     <div class="count-box">
-                                        <h2 class="count-text" data-stop="4" data-speed="4">4</h2>
+                                        <h2 class="count-text" data-stop="4" data-speed="1500">00</h2>
                                     </div>
                                     <p>Person running it
 
@@ -588,7 +588,7 @@
 
                                 <div class="counter-one__single-content">
                                     <div class="count-box">
-                                        <h2 class="count-text" data-stop="3.5" data-speed="3.5">3.5</h2>
+                                        <h2 class="count-text" data-stop="3.5" data-speed="1500">00</h2>
                                         <span class="plus">+</span>
                                     </div>
                                     <p>Years in Chakan</p>
@@ -609,7 +609,7 @@
 
                                 <div class="counter-one__single-content">
                                     <div class="count-box">
-                                        <h2 class="count-text" data-stop="100" data-speed="100"></h2>
+                                        <h2 class="count-text" data-stop="100" data-speed="1500">00</h2>
                                         <span class="plus">%</span>
                                     </div>
                                     <p>On-time arrival</p>
@@ -648,31 +648,36 @@
                         <!--Start Contact One Form-->
                         <div class="col-xl-8 col-lg-8">
                             <div class="contact-one__form">
-                                <form class="contact-form-validated contact-one__form-box"
-                                    action="https://templateholy.mnsithub.com/html/cleanin/main-html/assets/inc/sendemail.php" method="post" novalidate="novalidate">
+                                <div class="result"></div>
+                                <form class="contact-form-validated contact-one__form-box" id="contactForm">
+
+                                    <!-- FormSubmit config fields -->
+                                    <input type="hidden" name="_subject" value="New Contact Form Submission">
+                                    <input type="hidden" name="_captcha" value="false">
+
                                     <div class="row">
                                         <div class="col-xl-6 col-lg-6 col-md-6">
                                             <div class="input-box">
-                                                <input type="text" name="name" placeholder="Name" required="">
+                                                <input type="text" name="name" placeholder="Name" required>
                                                 <div class="icon"><span class="icon-people"></span></div>
                                             </div>
                                         </div>
                                         <div class="col-xl-6 col-lg-6 col-md-6">
                                             <div class="input-box">
-                                                <input type="email" name="email" placeholder="Email" required="">
+                                                <input type="email" name="email" placeholder="Email" required>
                                                 <div class="icon"><span class="icon-envelope"></span></div>
                                             </div>
                                         </div>
                                         <div class="col-xl-6 col-lg-6 col-md-6">
                                             <div class="input-box">
-                                                <input type="text" name="Phone" placeholder="Phone" required="">
+                                                <input type="text" name="Phone" placeholder="Phone" required>
                                                 <div class="icon"><span class="icon-call"></span></div>
                                             </div>
                                         </div>
                                         <div class="col-xl-6 col-lg-6 col-md-6">
                                             <div class="input-box">
                                                 <div class="select-box">
-                                                    <select class="selectmenu wide">
+                                                    <select class="selectmenu wide" name="subject">
                                                         <option selected="selected">Subject</option>
                                                         <option>Subject 01</option>
                                                         <option>Subject 02</option>
@@ -705,7 +710,7 @@
                                         </div>
                                     </div>
                                 </form>
-                                <div class="result"></div>
+                                
                             </div>
                         </div>
                         <!--End Contact One Form-->
@@ -919,4 +924,48 @@
 @endsection
 
 @section('script')
+<script>
+document.getElementById('contactForm').addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    const form = e.target;
+    const resultDiv = document.querySelector('.result');
+    const submitBtn = form.querySelector('button[type="submit"]');
+
+    submitBtn.disabled = true;
+    resultDiv.textContent = 'Sending...';
+    resultDiv.style.color = '#032E56';
+
+    fetch('https://formsubmit.co/ajax/swapnali.developer@elevatexpert.in', {
+        method: 'POST',
+        headers: {
+            'Accept': 'application/json'
+        },
+        body: new FormData(form)
+    })
+    .then(response => response.json())
+    .then(data => {
+        resultDiv.textContent = 'Form submitted successfully!';
+        resultDiv.style.background = 'green';
+        resultDiv.style.color = 'white';
+        resultDiv.style.padding = '10px';
+        resultDiv.style.marginBottom = '20px';
+        resultDiv.style.borderRadius = '7px';
+        resultDiv.style.textAlign = 'center';
+        form.reset();
+    })
+    .catch(error => {
+        resultDiv.textContent = 'Something went wrong. Please try again.';
+        resultDiv.style.background = 'red';
+        resultDiv.style.color = 'white';
+        resultDiv.style.padding = '10px';
+        resultDiv.style.marginBottom = '20px';
+        resultDiv.style.borderRadius = '7px';
+        resultDiv.style.textAlign = 'center';
+    })
+    .finally(() => {
+        submitBtn.disabled = false;
+    });
+});
+</script>
 @endsection
