@@ -10,7 +10,7 @@
                         <div class="col-xl-3 col-lg-6 col-md-6  wow fadeInUp" data-wow-delay=".0s">
                             <div class="footer-widget__single footer-widget__about">
                                 <div class="site-footer__logo">
-                                    <a href="index.html"><img src="{{ asset('images/resources/logo-2.png') }}" alt=""></a>
+                                    <a href="index.html"><img style="height: 100px; width: 150px;" src="{{ asset('images/logo/yash-logo.jpeg') }}" alt=""></a>
                                 </div>
 
                                 <div class="footer-widget__about-text">
