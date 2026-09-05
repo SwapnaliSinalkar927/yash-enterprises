@@ -16,7 +16,7 @@
                 <div class="page-header__inner">
                     <h2 class="wow fadeInDown" data-wow-duration="1500ms">About us</h2>
                     <ul class="thm-breadcrumb wow fadeInUp" data-wow-duration="1500ms">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="{{ route('index') }}">Home</a></li>
                         <li><span class="icon-right-arrow1"></span></li>
                         <li>About us</li>
                     </ul>

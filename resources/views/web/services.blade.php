@@ -16,7 +16,7 @@
                 <div class="page-header__inner">
                     <h2 class="wow fadeInDown" data-wow-duration="1500ms">Services</h2>
                     <ul class="thm-breadcrumb wow fadeInUp" data-wow-duration="1500ms">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="{{ route('index') }}">Home</a></li>
                         <li><span class="icon-right-arrow1"></span></li>
                         <li>Services</li>
                     </ul>
@@ -36,7 +36,7 @@
                                 <div class="services-one__single-icon">
                                     <span class="icon-house-2"></span>
                                 </div>
-                                <h2><a href="house-cleaning.html">Weekly apartment service</a></h2>
+                                <h2>Weekly apartment service</h2>
                                 <p>Full dusting, mopping, and bathroom scrub in every flat. Same crew each week.</p>
 
 
@@ -55,7 +55,7 @@
                                 <div class="services-one__single-icon">
                                     <span class="icon-house"></span>
                                 </div>
-                                <h2><a href="house-cleaning.html">Common area maintenance</a></h2>
+                                <h2>Common area maintenance</h2>
                                 <p>Lobbies, staircases, and corridors cleaned on a set schedule. No missed spots.</p>
 
 
@@ -74,7 +74,7 @@
                                 <div class="services-one__single-icon">
                                     <span class="icon-window-cleaning"></span>
                                 </div>
-                                <h2><a href="house-cleaning.html">Window Cleaning</a></h2>
+                                <h2>Window Cleaning</h2>
                                 <p>Quarterly deep scrub for windows, grout, and overlooked corners in every unit.</p>
 
 
@@ -93,7 +93,7 @@
                                 <div class="services-one__single-icon">
                                     <span class="icon-carpet-1"></span>
                                 </div>
-                                <h2><a href="house-cleaning.html">Garbage and recycling runs</a></h2>
+                                <h2>Garbage and recycling runs</h2>
                                 <p>Daily waste collection from each floor. Segregated disposal as per society rules.</p>
 
 
@@ -112,7 +112,7 @@
                                 <div class="services-one__single-icon">
                                     <span class="icon-vacuum-cleaner"></span>
                                 </div>
-                                <h2><a href="house-cleaning.html">Parking and basement upkeep</a></h2>
+                                <h2>Parking and basement upkeep</h2>
                                 <p>Sweeping, mopping, and removing debris from parking areas and basement levels.</p>
 
 
@@ -131,7 +131,7 @@
                                 <div class="services-one__single-icon">
                                     <span class="icon-toilet"></span>
                                 </div>
-                                <h2><a href="house-cleaning.html">Custom society packages</a></h2>
+                                <h2>Custom society packages</h2>
                                 <p>Tailored schedules and scope for each building. We work with your committee.</p>
 
 
@@ -254,7 +254,7 @@
                         </div>
 
                         <div class="btn-box">
-                            <a class="thm-btn" href="contact-1.html">get free quote
+                            <a class="thm-btn" href="{{ route('contact-us') }}">get free quote
                                 <i class="icon-next"></i>
                                 <span class="hover-btn hover-bx"></span>
                                 <span class="hover-btn hover-bx2"></span>

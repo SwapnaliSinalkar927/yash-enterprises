@@ -29,7 +29,7 @@
                             </div>
 
                             <div class="main-slider-one__btn">
-                                <a class="thm-btn" href="contact-1.html">Take Our Service
+                                <a class="thm-btn" href="{{ route('contact-us') }}">Take Our Service
                                     <i class="icon-next"></i>
                                     <span class="hover-btn hover-bx"></span>
                                     <span class="hover-btn hover-bx2"></span>
@@ -58,7 +58,7 @@
                                 <p>Complete cleaning solutions tailored <br> to your needs.</p>
                             </div>
                             <div class="main-slider-one__btn">
-                                <a class="thm-btn" href="contact-1.html">Take Our Service
+                                <a class="thm-btn" href="{{ route('contact-us') }}">Take Our Service
                                     <i class="icon-next"></i>
                                     <span class="hover-btn hover-bx"></span>
                                     <span class="hover-btn hover-bx2"></span>
@@ -87,7 +87,7 @@
                                 <p>Professional Cleaning Services <br> You Can Trust</p>
                             </div>
                             <div class="main-slider-one__btn">
-                                <a class="thm-btn" href="contact-1.html">Take Our Service
+                                <a class="thm-btn" href="{{ route('contact-us') }}">Take Our Service
                                     <i class="icon-next"></i>
                                     <span class="hover-btn hover-bx"></span>
                                     <span class="hover-btn hover-bx2"></span>

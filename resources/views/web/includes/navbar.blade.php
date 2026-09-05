@@ -90,7 +90,7 @@
 
                             <div class="main-header-one__bottom-right">
                                 <div class="main-header__btn">
-                                    <a class="thm-btn" href="contact-1.html">Get a Quote
+                                    <a class="thm-btn" href="{{ route('contact-us') }}">Get a Quote
                                         <i class="icon-next"></i>
                                         <span class="hover-btn hover-bx"></span>
                                         <span class="hover-btn hover-bx2"></span>

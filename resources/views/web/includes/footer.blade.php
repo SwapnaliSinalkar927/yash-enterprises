@@ -10,7 +10,7 @@
                         <div class="col-xl-3 col-lg-6 col-md-6  wow fadeInUp" data-wow-delay=".0s">
                             <div class="footer-widget__single footer-widget__about">
                                 <div class="site-footer__logo">
-                                    <a href="index.html"><img src="{{ asset('images/resources/logo-2.png') }}" alt=""></a>
+                                    <a href="{{ route('index') }}"><img src="{{ asset('images/resources/logo-2.png') }}" alt=""></a>
                                 </div>
 
                                 <div class="footer-widget__about-text">
@@ -144,7 +144,7 @@
                 <i class="fa fa-times"></i>
             </span>
             <div class="logo-box">
-                <a href="index.html" aria-label="logo image">
+                <a href="{{ route('index') }}" aria-label="logo image">
                     <img src="{{ asset('images/resources/logo-2.png') }}" alt="Logo" />
                 </a>
             </div>
